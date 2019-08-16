@@ -1,21 +1,26 @@
-first_number2 = int(input())
-# second_number = int(first_number/2)+int(first_number**0.5)+ int(first_number**0.25)
-for second_number in range(int(first_number2/2), first_number2):
-    list_list = []
-    first_number = first_number2
-    list_list.append(first_number)
-    list_list.append(second_number)
-    while first_number > 0:
-        temp = first_number - second_number
-        first_number = second_number
-        if temp < 0:
-            break
-        second_number = temp
-        list_list.append(temp)
-    count = len(list_list)
-    nu = []
-    for i in list_list:
-        nu.append(str(i))
-    result = ' '.join(nu)
-    print(count)
-    print(result)
+lines = int(input())
+for i in range(1,lines+1):
+    options = input().split()
+    recharger_list = input().split()
+    n = int(options[1])
+    charge = 0
+    stop = 0 
+    k = int(options[0])
+    road = [0] * (int(options[1])+k)
+    point = 0
+    for j in recharger_list:
+        road[int(j)] = 1
+    while point < n and stop ==0:
+        for move in range(k,-1,-1):
+            if point+move == n:
+                point += move
+                break
+            elif move == 0 or point == n:
+                stop = 1
+                charge = 0
+            elif road[point + move] != 0:
+                point += move
+                charge += 1
+                break
+
+    print('#{} {}'.format(i, charge))

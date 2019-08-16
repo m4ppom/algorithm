@@ -11,3 +11,5 @@ for tri in range(1, 11):
         numbers[idxmin] += 1
     result = max(numbers)-min(numbers)
     print('#{} {}'.format(tri, result))
+
+    # n, m = map(int, input().split())
