@@ -5,7 +5,7 @@ def counter(list, find):
     result = 0
     for i in range(len(list)):
         if find == list[i]:
-            result += 1
+            result +=
     return result
 
 test_case = int(input())
