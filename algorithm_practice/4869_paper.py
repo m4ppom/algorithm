@@ -1,20 +1,21 @@
-import  sys
+import sys
 sys.stdin = open("inpu.txt", "r")
 
 testcase = int(input())
 
-for num in range(testcase):
-    mux = 0
-    count= 0
+
+def function(n):
+    if n == 1:
+        return 1
+    elif n == 2:
+        return 3
+    return function(n-1) + (function(n-2)*2)
+
+
+for num in range(1,testcase+1):
     garo = int(input())
-    sq = garo//20
-    sq_2 = garo % 20
-    if sq_2:
-        mux += 1
-    count += sq +1
-    (sq + 1)
+    # print(garo)
+    sq = garo//10
+    result = function(sq)
 
-
-
-
-    print('#{} {}'.format(num, ))
+    print('#{} {}'.format(num, result))

@@ -26,6 +26,7 @@ for _ in range(10):
                 if matrix[i][j] == matrix[i][k]:
                     if palin(matrix[i][j:k+1]) > maxi:
                         maxi = palin(matrix[i][j:k+1])
+                        print(i,j,k)
                         break
                     else:
                         continue
@@ -37,7 +38,10 @@ for _ in range(10):
                 if matrix[i][j] == matrix[k][j]:
                     if palin(test[i:k+1]) > maxi:
                         maxi = palin(test[i:k+1])
+                        print(i, k ,j)
                         break
                 else:
                     continue
     print('#{} {}'.format(test_case, maxi))
+
+
