@@ -4,13 +4,13 @@ sys.stdin = open("1267_dfs_sequence", "r")
 
 def dfs(start):
     global result
-    
+
     if len(result) == num_ver:
         return
     visited[start] = 1
     if start not in result:
         result += [start]
-    for next in range(1, num_ver+1):
+    for next in range(1, num_ver + 1):
         if True not in parent:
             return
         if start == next:
@@ -22,46 +22,93 @@ def dfs(start):
                 visited[next] = 1
                 dfs(next)
 
-test_case = 1  # 1부터 시작
+
+test_case = 10
 for number in range(1, test_case + 1):
     result = []
     num_ver, num_link = map(int, input().split())  # vortex & edge 개수
-    link_cord = [[0 for _ in range(num_ver + 1)]for _ in range(num_ver + 1)]
+    link_cord = [[0 for _ in range(num_ver + 1)] for _ in range(num_ver + 1)]
     visited = [0] * (num_ver + 1)
     parent = [0] * (num_ver + 1)  # 미리 마쳐야 하는 vortex
-    
+
     link = list(map(int, input().split()))
     while len(link) != 0:
         b = link.pop()
         a = link.pop()
         link_cord[a][b] = 1
-        if b == 522:
-            print('aasdsaasasa522222222')
         parent[b] += 1
-        print('522pppp', parent[522])
-    print(visited[522])
-    
     for i in range(1, num_ver + 1):
-        if True not in parent:
-            break
         if visited[i] == 1:
             continue
         if parent[i] == 0:
             dfs(i)
-        # print('522pppp', parent[522])
-    # if parent[522] != None:
-    #     dfs(522)
     print('#{}'.format(number), end=' ')
     for i in result:
         print('{}'.format(i), end=' ')
     print()
-    print('........', num_ver, len(result), len(set(result)))
-    print(set(result))
-    # for i in set(result):
-    #     for j in result:
-    #         if i == j:
-    #             a = result.index(j)
-    #             result.pop(a)
+
+# def dfs(start):
+#     global result
+#
+#     if len(result) == num_ver:
+#         return
+#     visited[start] = 1
+#     if start not in result:
+#         result += [start]
+#     for next in range(1, num_ver + 1):
+#         if True not in parent:
+#             return
+#         if start == next:
+#             continue
+#         elif link_cord[start][next] and parent[next] != 0 and not visited[next]:
+#             parent[next] -= 1
+#             if parent[next] == 0:
+#                 result += [next]
+#                 visited[next] = 1
+#                 dfs(next)
+#
+#
+# test_case = 1
+# for number in range(1, test_case + 1):
+#     result = []
+#     num_ver, num_link = map(int, input().split())  # vortex & edge 개수
+#     link_cord = [[0 for _ in range(num_ver + 1)] for _ in range(num_ver + 1)]
+#     visited = [0] * (num_ver + 1)
+#     parent = [0] * (num_ver + 1)  # 미리 마쳐야 하는 vortex
+#
+#     link = list(map(int, input().split()))
+#     while len(link) != 0:
+#         b = link.pop()
+#         a = link.pop()
+#         link_cord[a][b] = 1
+#         # if b == 522:
+#         #     print('aasdsaasasa522222222')
+#         parent[b] += 1
+#         # print('522pppp', parent[522])
+#     # print(visited[522])
+#
+#     for i in range(1, num_ver + 1):
+#         # if i== 522:
+#         #     print('find 522::::::', i)
+#         # if True not in parent:
+#         #     break
+#         if visited[i] == 1:
+#             continue
+#         if parent[i] == 0:
+#             dfs(i)
+#         # print('522pppp', parent[522])
+#     # for i in range(1, num_ver + 1):
+#     #     if i not in result:
+#     #         dfs(i)
+#     print('#{}'.format(number), end=' ')
+#     for i in result:
+#         print('{}'.format(i), end=' ')
+#     print()
+#     # for i in set(result):
+#     #     for j in result:
+#     #         if i == j:
+#     #             a = result.index(j)
+#     #             result.pop(a)
     #     print(result)
 # import sys 
 # sys.stdin = open("1267_dfs_sequence", "r")
