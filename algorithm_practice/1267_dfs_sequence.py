@@ -2,6 +2,41 @@ import sys
 sys.stdin = open("1267_dfs_sequence", "r")
 
 
+# def dfs(x):
+#     if x not in result and x != 0:
+#         result.append(x)
+#     arr = arrr[:]
+#     if arr[x] and visited[x] == 0:
+#         for i in range(len(arr[x])):
+#             try:
+#                 if visited[arr[x][i]] == 0 and point_li[arr[x][i]] == 2:
+#                     point_li[arr[x][i]] -= 1
+#                 elif visited[arr[x][i]] == 0 and point_li[arr[x][i]] <= 1:
+#                     visited[x] = 1
+#                     dfs(arr[x][i])
+#             except IndexError:
+#                 pass
+# for tc in range(1, 11):
+#     print('#%d' %tc, end=' ')
+#     V, E = map(int, input().split())
+#     li = list(map(int, input().split()))
+#     arrr = [[] for _ in range(V+1)]
+#     check_li = []
+#     visited = [0]*(V+1)
+#     result = []
+#     point_li = [0]*(V+1)
+#     for s in range(1, len(li), 2):
+#         check_li.append(li[s])
+#         point_li[li[s]] += 1
+#     for j in range(0, len(li), 2):
+#         arrr[li[j]].append(li[j+1])
+#         if li[j] not in check_li or li[j] not in arrr[0]:
+#             arrr[0].append(li[j])
+#     dfs(0)
+#     print(' '.join(map(str, result)))
+#     print('v',V,len(result))
+
+#
 def dfs(start):
     global result
 

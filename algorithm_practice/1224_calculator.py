@@ -3,8 +3,8 @@ sys.stdin = open('input0828.txt', 'r')
 
 opener = ['(']
 closer = [')']
-op1 = ['+','-']
-op2 = ['*','/']
+op1 = ['+', '-']
+op2 = ['*', '/']
 testcase = 10
 for test_num in range(1, testcase+1):
 

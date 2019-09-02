@@ -25,16 +25,11 @@ def detoxi(i, j):
             dircnt[a] = 1
         for a in range(4):
             if base[i+dy[a]][j+dx[a]] == 0:
-                # print('i',i,'j',j)
-                # print(base)
                 ret = 0
             else:
                 break
         else:
             ret = 1
-
-    # dircnt[a] = 1
-    # print(base)
     leng += 1
     return cntrow, cntcol
 
@@ -47,23 +42,15 @@ for test_num in range(1, testcase+1):
     base = [0] * N
     for ggg in range(N):
         base[ggg] = list(map(int, input().split()))
-    # print(base)
     for i in range(N):
         for j in range(N):
             if base[i][j] != 0:
                 a, b = detoxi(i, j)
                 result.append([a, b])
-    # print(base)
-    # leng = len(result)
     reresult = []
     for cnt in range(len(result)):
-        # print(result[cnt])
-        # for i in result[cnt]:
-        # print(i)
         num = int(result[cnt][0]) * int(result[cnt][1])
         result[cnt].append(num)
-    # print(result)
-        # reresult
     for i in range(len(result)-1):
         for j in range(i+1, len(result)):
             if result[i][2] > result[j][2]:
@@ -71,7 +58,6 @@ for test_num in range(1, testcase+1):
             if result[i][2] == result[j][2]:
                 if result[i][0] > result[j][0]:
                     result[i], result[j] = result[j], result[i]
-    # print(result)
 
     print('#{}'.format(test_num), end='')
     print(' {}'.format(leng), end='')
