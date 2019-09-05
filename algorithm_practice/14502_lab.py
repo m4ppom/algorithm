@@ -17,18 +17,19 @@ def counting(list):
 
 def spread(row, col):
     global virus_movement
-    global base_copy
-    base_copy = copy.deepcopy(base)
+    # global base_copy
+    global mini_virus
+    # base_copy = copy.deepcopy(base)
     for i in range(4):
         if not inner(row+dy[i], col+dx[i]):
             continue
         if base_copy[row+dy[i]][col+dx[i]] == 0:
             base_copy[row+dy[i]][col+dx[i]] = 2
             virus_movement += 1
+            spread(row+dy[i], col+dx[i])
             print('momo vvivi', virus_movement)
             if virus_movement > mini_virus:
                 return
-            spread(row+dy[i], col+dx[i])
         else:
             continue
     if mini_virus > virus_movement:
@@ -37,7 +38,7 @@ def spread(row, col):
 
 
 def building(row, col):
-    global N, M, cnt, virus
+    global N, M, cnt, virus, base_copy
     if base[row][col] != 0:
         return
     if base[row][col] == 0:
@@ -62,17 +63,19 @@ cnt = 3
 virus_movement = 0
 mini_virus = 10000
 wall = 0
+base_copy = []
 for i in range(N):
     base[i] = list(map(int, input().split()))
 for i in range(N):
     for j in range(M):
         if base[i][j] == 2:
             virus += [i, j]
+        elif base[i][j] == 1:
             wall += 1
 
 
 for i in range(N*M):
-        building(i//M, i%M)
+        building(i//M, i % M)
 
 # for i in range(N):
 #     for j in range(1, N-i):
@@ -95,7 +98,7 @@ for i in range(N*M):
 #         result = left
 #         return
 
-safe_area = N*M - wall - mini_virus
-print(virus)
-print(base)
+safe_area = N*M - wall - mini_virus -3
+print(virus, wall)
+print(base_copy)
 print('ghghghg', safe_area)
