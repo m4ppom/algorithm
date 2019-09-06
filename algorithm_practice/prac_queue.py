@@ -87,15 +87,32 @@
 #             if base[start][j] == 1 and visited[j] == 0:
 #                 count -= 1
 
-def bfs(g, v):
-    visited = [0]*N  # 노드의 개수
-    queue = []  # 큐 생성
-    queue.append(v)
-    while queue:
-        t = queue.pop(0)
-        if not visited[t]:
-            visited[t] = True
-            visit(t)
-        for i in g[t]:  # 연결된 모든 선
-            if not visited[i]:
-                queue.append(i)
+# def bfs(g, v):
+#     visited = [0]*N  # 노드의 개수
+#     queue = []  # 큐 생성
+#     queue.append(v)
+#     while queue:
+#         t = queue.pop(0)
+#         if not visited[t]:
+#             visited[t] = True
+#             visit(t)
+#         for i in g[t]:  # 연결된 모든 선
+#             if not visited[i]:
+#                 queue.append(i)
+
+def bfs(x, y):
+
+
+
+
+dy = [-1, 1, 0, 0]
+dx = [0, 0, -1, 1]
+testcase = int(input())
+for test_num in range(testcase):
+    N, M = map(int, input().split())
+
+
+
+
+
+
