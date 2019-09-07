@@ -50,28 +50,21 @@ import copy
 def BFS(x, y):
     dx = [0, 0, 1, -1]
     dy = [1, -1, 0, 0]
-
     q = []
     q.append((x, y))
-
     dist = [[0] * M for i in range(N)]
     dist[x][y] = 1
-
     ret = 0
     while len(q):
         (x, y) = q.pop(0)
-
         for i in range(4):
             xx = x + dx[i]
             yy = y + dy[i]
-
             ret = max(ret, dist[x][y])
-
             if 0 <= xx < N and 0 <= yy < M:
                 if G[xx][yy] == 'L' and dist[xx][yy] == 0:
                     q.append((xx, yy))
                     dist[xx][yy] = dist[x][y] + 1
-
     return ret - 1
 
 
