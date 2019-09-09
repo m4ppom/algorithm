@@ -1,7 +1,6 @@
 import sys
-sys.setrecursionlimit(1000000000)
+
 sys.stdin = open('inpu.txt', 'r')
-import sys
 sys.setrecursionlimit(1000000000)
 # a = random.sample(range(10),2)
 # print(a)
@@ -9,44 +8,44 @@ import time
 
 st_time = time.time()
 
-
-import random
-
-def dfs(row, col):
-    global lele
-    if row == -1 or col ==-1 or row ==4 or col ==4:
-        return
-    lele.append(base[row][col])
-    if len(lele) == 7:
-        result.append(lele)
-        lele = []
-        # print(result)
-        return
-    else:
-        for i in random.sample(range(4), 1):
-            dfs(row + dy[i], col + dx[i])
-    return
-
-
-dy = [-1, 1, 0, 0]
-dx = [0, 0, -1, 1]
-testcase = int(input())
-for test_num in range(1, testcase+1):
-    base = [list(map(str, input().split()))for _ in range(4)]
-    result = []
-    timee = 0
-    while timee != 15000:
-        timee += 1
-        for i in range(4):
-            for j in range(4):
-                lele = []
-                dfs(i, j)
-        # print(result)
-    rere =[]
-    for i in range(len(result)):
-        a = ' '.join(result[i])
-        rere.append(a)
-    print('#{} {}'.format(test_num, len(set(rere))))
+#
+# import random
+#
+# def dfs(row, col):
+#     global lele
+#     if row == -1 or col ==-1 or row ==4 or col ==4:
+#         return
+#     lele.append(base[row][col])
+#     if len(lele) == 7:
+#         result.append(lele)
+#         lele = []
+#         # print(result)
+#         return
+#     else:
+#         for i in random.sample(range(4), 1):
+#             dfs(row + dy[i], col + dx[i])
+#     return
+#
+#
+# dy = [-1, 1, 0, 0]
+# dx = [0, 0, -1, 1]
+# testcase = int(input())
+# for test_num in range(1, testcase+1):
+#     base = [list(map(str, input().split()))for _ in range(4)]
+#     result = []
+#     timee = 0
+#     while timee != 15000:
+#         timee += 1
+#         for i in range(4):
+#             for j in range(4):
+#                 lele = []
+#                 dfs(i, j)
+#         # print(result)
+#     rere =[]
+#     for i in range(len(result)):
+#         a = ' '.join(result[i])
+#         rere.append(a)
+#     print('#{} {}'.format(test_num, len(set(rere))))
 
 '''
 def move(x, y, k, strin):
@@ -76,4 +75,54 @@ for tc in range(int(input())):
 
     print('#%d %d' % (tc + 1, len(num_list)))
 '''
+
+
+def dfs(x, y, k, n):
+    global cnt
+    global tc
+    if k == 7:
+        if visit[n] != tc:
+            cnt += 1
+            visit[n] = tc
+        return
+
+    for i in range(4):
+        tx = x + dx[i]
+        ty = y + dy[i]
+        if tx < 0 or tx >= 4 or ty < 0 or ty >=  4:
+            continue
+        dfs(tx, ty, k + 1, n * 10 + data[tx][ty])
+
+
+def dfs2(x, y, k, n):
+    global cnt
+    global tc
+    if k == 7:
+        if visit[n] != tc:
+            cnt += 1
+            visit[n] = tc
+        return
+    for i in range(4):
+        tx = x + dx[i]
+        ty = y + dy[i]
+        if tx == -1 or tx == 4 or ty == -1 or ty == 4:
+            continue
+        dfs(tx, ty, k+1, n*10+data[tx][ty])
+
+T = int(input())
+visit = [0] * 10000000
+dx = [0, 0, 1, -1]
+dy = [1, -1, 0, 0]
+
+for tc in range(1, T+1):
+    data = [[0 for _ in range(4)] for _ in range(4)]
+    cnt = 0
+    for i in range(4):
+        data[i] = list(map(int, input().split()))
+
+    for i in range(4):
+        for j in range(4):
+            dfs(i, j, 1, data[i][j])
+
+    print("#{} {}".format(tc, cnt))
 print(time.time() - st_time)
