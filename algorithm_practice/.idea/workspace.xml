@@ -5,12 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7543d34c-9b95-4aa1-b217-e8fe4893aad8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/tree/inpu.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tree/prac_tree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2589_treas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tree/1231_lt_trav.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2589_treas.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2819_bu_iggy.py" beforeDir="false" afterPath="$PROJECT_DIR$/2819_bu_iggy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1247_best_route.py" beforeDir="false" afterPath="$PROJECT_DIR$/1247_best_route.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/inpu.txt" beforeDir="false" afterPath="$PROJECT_DIR$/inpu.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/inpu.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tree/inpu.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/prac_tree.py" beforeDir="false" afterPath="$PROJECT_DIR$/tree/prac_tree.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,40 +63,89 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="1267_dfs_sequence" value="3" />
-          <entry key="py" value="79" />
-          <entry key="txt" value="16" />
+          <entry key="1267_dfs_sequence" value="4" />
+          <entry key="py" value="87" />
+          <entry key="txt" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="19" />
-          <entry key="Python" value="79" />
+          <entry key="PLAIN_TEXT" value="23" />
+          <entry key="Python" value="87" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="29925" />
-          <entry key="txt" value="1287" />
+          <entry key="py" value="32231" />
+          <entry key="txt" value="1344" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="1287" />
-          <entry key="Python" value="29925" />
+          <entry key="PLAIN_TEXT" value="1344" />
+          <entry key="Python" value="32231" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.7914309">
+    <splitter split-orientation="horizontal" split-proportion="0.4687124">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/1247_best_route.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="370">
+                  <caret line="178" lean-forward="true" selection-start-line="178" selection-end-line="178" />
+                  <folding>
+                    <element signature="e#0#10#0" expanded="true" />
+                    <marker date="1568014879987" expanded="true" signature="5140:5679" ph="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="289">
+                  <caret line="17" selection-start-line="17" selection-end-line="17" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/tree/prac_tree.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="51">
-                  <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+                <state relative-caret-position="91">
+                  <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+                  <folding>
+                    <marker date="1568006929769" expanded="true" signature="109:110" ph="..." />
+                    <marker date="1568006929769" expanded="true" signature="109:337" ph="..." />
+                    <marker date="1568006929769" expanded="true" signature="553:1244" ph="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/tree/1231_lt_trav.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="516">
+                  <caret line="73" column="15" selection-start-line="73" selection-start-column="15" selection-end-line="73" selection-end-column="15" />
+                  <folding>
+                    <marker date="1568006274785" expanded="true" signature="66:123" ph="..." />
+                    <marker date="1568006274785" expanded="true" signature="463:502" ph="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://C:/Program Files/Python35/Lib/codecs.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="194">
+                  <caret line="308" selection-start-line="308" selection-end-line="308" />
                 </state>
               </provider>
             </entry>
@@ -108,12 +158,21 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+        <leaf>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/tree/inpu.txt">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="5814">
+                  <caret line="342" lean-forward="true" selection-start-line="342" selection-end-line="342" />
+                </state>
+              </provider>
+            </entry>
+          </file>
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/inpu.txt">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="85">
-                  <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+                <state relative-caret-position="204">
+                  <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
                 </state>
               </provider>
             </entry>
@@ -174,18 +233,20 @@
         <option value="$PROJECT_DIR$/2835_harv.py" />
         <option value="$PROJECT_DIR$/2636_cheese.py" />
         <option value="$PROJECT_DIR$/prac_queue.py" />
-        <option value="$PROJECT_DIR$/1247_best_route.py" />
         <option value="$PROJECT_DIR$/3752_earnable.py" />
         <option value="$PROJECT_DIR$/2819_bu_iggy.py" />
-        <option value="$PROJECT_DIR$/inpu.txt" />
         <option value="$PROJECT_DIR$/2589_treas.py" />
+        <option value="$PROJECT_DIR$/tree/inpu.txt" />
+        <option value="$PROJECT_DIR$/tree/1231_lt_trav.py" />
         <option value="$PROJECT_DIR$/tree/prac_tree.py" />
+        <option value="$PROJECT_DIR$/inpu.txt" />
+        <option value="$PROJECT_DIR$/1247_best_route.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="2" />
-    <option name="width" value="1459" />
+    <option name="width" value="1884" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -230,7 +291,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.2589_treas">
+  <component name="RunManager" selected="Python.1247_best_route">
+    <configuration name="1231_lt_trav" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="20190812" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tree" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tree/1231_lt_trav.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="1247_best_route" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="20190812" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -273,27 +355,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="2636_cheese" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="20190812" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2636_cheese.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="2819_bu_iggy" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="20190812" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -315,7 +376,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="2835_harv" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="prac_tree" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="20190812" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -323,11 +384,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tree" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2835_harv.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tree/prac_tree.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -337,19 +398,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.2835_harv" />
       <item itemvalue="Python.2589_treas" />
-      <item itemvalue="Python.2636_cheese" />
       <item itemvalue="Python.1247_best_route" />
       <item itemvalue="Python.2819_bu_iggy" />
+      <item itemvalue="Python.prac_tree" />
+      <item itemvalue="Python.1231_lt_trav" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.1247_best_route" />
+        <item itemvalue="Python.1231_lt_trav" />
+        <item itemvalue="Python.prac_tree" />
         <item itemvalue="Python.2589_treas" />
         <item itemvalue="Python.2819_bu_iggy" />
-        <item itemvalue="Python.1247_best_route" />
-        <item itemvalue="Python.2636_cheese" />
-        <item itemvalue="Python.2835_harv" />
       </list>
     </recent_temporary>
   </component>
@@ -367,15 +428,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2" y="0" width="1459" height="1047" extended-state="0" />
+    <frame x="2" y="0" width="1884" height="1047" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12948628" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.09967497" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.17434211" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4232456" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.06140351" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -460,9 +522,24 @@
           <option name="timeStamp" value="46" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tree/prac_tree.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tree/1231_lt_trav.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tree/1231_lt_trav.py</url>
+          <line>48</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/1247_best_route.py</url>
-          <line>131</line>
-          <option name="timeStamp" value="56" />
+          <line>158</line>
+          <option name="timeStamp" value="69" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -475,7 +552,7 @@
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
-        <watch expression="base" />
+        <watch expression="base" language="Python" />
       </configuration>
     </watches-manager>
   </component>
@@ -489,13 +566,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/4874_Forth.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="118" column="17" selection-end-line="126" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/4880_torna.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
@@ -702,9 +772,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1267_dfs_sequence">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/1493_new_number_order.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="731">
@@ -712,13 +779,6 @@
           <folding>
             <marker date="1567577143284" expanded="true" signature="70:84" ph="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1267_dfs_sequence.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="68" column="42" selection-start-line="68" selection-start-column="42" selection-end-line="68" selection-end-column="42" />
         </state>
       </provider>
     </entry>
@@ -747,24 +807,10 @@
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_powerset.zip/powerset.py" />
-    <entry file="file://C:/Program Files/Python35/Lib/codecs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="310" selection-start-line="310" selection-end-line="310" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/6109_2048game.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="310">
           <caret line="225" column="13" selection-start-line="225" selection-start-column="13" selection-end-line="225" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
@@ -776,16 +822,6 @@
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_(2819)격자판의숫자이어+붙이기.zip/(2819)격자판의숫자이어 붙이기.py" />
-    <entry file="file://$PROJECT_DIR$/1247_best_route.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1938">
-          <caret line="116" column="9" selection-start-line="116" selection-start-column="9" selection-end-line="116" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Downloads/powerset (2)/powerset.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -817,27 +853,82 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/inpu.txt">
+    <entry file="file://$PROJECT_DIR$/2589_treas.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+        <state relative-caret-position="884">
+          <caret line="52" column="10" lean-forward="true" selection-start-line="52" selection-start-column="10" selection-end-line="52" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2589_treas.py">
+    <entry file="file://$PROJECT_DIR$/1267_dfs_sequence">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1267_dfs_sequence.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="76" column="6" selection-start-line="76" selection-start-column="6" selection-end-line="100" selection-end-column="59" />
+        <state relative-caret-position="542">
+          <caret line="68" column="42" selection-start-line="68" selection-start-column="42" selection-end-line="68" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tree/inpu.txt">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5814">
+          <caret line="342" lean-forward="true" selection-start-line="342" selection-end-line="342" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python35/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="308" selection-start-line="308" selection-end-line="308" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tree/prac_tree.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+        <state relative-caret-position="91">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+          <folding>
+            <marker date="1568006929769" expanded="true" signature="109:110" ph="..." />
+            <marker date="1568006929769" expanded="true" signature="109:337" ph="..." />
+            <marker date="1568006929769" expanded="true" signature="553:1244" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tree/1231_lt_trav.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="516">
+          <caret line="73" column="15" selection-start-line="73" selection-start-column="15" selection-end-line="73" selection-end-column="15" />
+          <folding>
+            <marker date="1568006274785" expanded="true" signature="66:123" ph="..." />
+            <marker date="1568006274785" expanded="true" signature="463:502" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1247_best_route.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="178" lean-forward="true" selection-start-line="178" selection-end-line="178" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+            <marker date="1568014879987" expanded="true" signature="5140:5679" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inpu.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
         </state>
       </provider>
     </entry>

@@ -95,59 +95,109 @@ st_time = time.time()
 #     return
 
 
+# def distance(cord1, cord2):
+#     global count
+#     # count += \
+#     return abs(cord1[0] - cord2[0]) + abs(cord1[1] - cord2[1])
+#
+#
+# def sorting(start):
+#     global index, mini
+#     mini = 200
+#     # visited = [0 for _ in range(client)]
+#     for a in range(len(client_list)):
+#         # for j in range(i+1, client):
+#         aa = distance(client_list[a], start)
+#         if mini > aa:
+#             mini = aa
+#             index = a
+#         # visited[index1] += 1
+#
+# dy = [-1, 1, 0, 0]
+# dx = [0, 0, -1, 1]
+# testcase = int(input())
+# for test_num in range(1, testcase+1):
+#     base = [[0 for _ in range(101)]for _ in range(101)]
+#     client = int(input())
+#     info = list(map(int, input().split()))
+#     start = [info.pop(1), info.pop(0)]
+#     end = [info.pop(0), info.pop(0)]
+#     client_list = []
+#     count = 0
+#     index = 0
+#     mini = 0
+#     result = 0
+#     for i in range(client):
+#         client_list.append([info[2*i], info[2*i+1]])
+#     while len(client_list):
+#         sorting(start)
+#         start = client_list.pop(index)
+#         result += mini
+#     result += distance(start, end)
+#     print(result)
+
+# sort_client_list = sorted(client_list)
+# find_close(sort_client_list)
+# for i in range(client-1):
+#     distance(sort_client_list[i], sort_client_list[i+1])
+# sorting(client_list)
+# # print(client_list)
+# print(sort_client_list)
+# print(count)
+# cl_num = 0
+# while cl_num != client-1:
+#     # cl_num += 1
+#     bfs(sort_client_list[cl_num][0], sort_client_list[cl_num][1])
+#     print(cl_num)
+# print(count)
+
+
 def distance(cord1, cord2):
-    global count
-    # count += \
     return abs(cord1[0] - cord2[0]) + abs(cord1[1] - cord2[1])
 
 
-def sorting(start):
-    global index, mini
-    mini = 200
-    # visited = [0 for _ in range(client)]
-    for a in range(len(client_list)):
-        # for j in range(i+1, client):
-        aa = distance(client_list[a], start)
-        if mini > aa:
-            mini = aa
-            index = a
-        # visited[index1] += 1
+def dfs(start, end):
+    global mini, cnt, result, client_number
+    if visited[start][end] == 1 or start == end or end <= start or vivi[start] == 1:
+        return
+    visited[start][end] = 1
+    # vivi[end] = 1
+    result += base[start][end]
+    cnt += 1
+    if cnt == client_number+1:
+        if mini > result:
+            mini = result
+            result -= base[start][end]
+            cnt -= 1
+            vivi[start] = 0
+            return
+    for i in range(client_number):
+        dfs(end, i)
+    result -= base[start][end]
+    cnt -= 1
+    return
 
-dy = [-1, 1, 0, 0]
-dx = [0, 0, -1, 1]
+
 testcase = int(input())
 for test_num in range(1, testcase+1):
-    base = [[0 for _ in range(101)]for _ in range(101)]
-    client = int(input())
+    client_number = int(input())
     info = list(map(int, input().split()))
-    start = [info.pop(1), info.pop(0)]
-    end = [info.pop(0), info.pop(0)]
     client_list = []
-    count = 0
-    index = 0
-    mini = 0
-    result = 0
-    for i in range(client):
+    for i in range(client_number+2):
         client_list.append([info[2*i], info[2*i+1]])
-    while len(client_list):
-        sorting(start)
-        start = client_list.pop(index)
-        result += mini
-    result += distance(start, end)
-    print(result)
-    # sort_client_list = sorted(client_list)
-    # find_close(sort_client_list)
-    # for i in range(client-1):
-    #     distance(sort_client_list[i], sort_client_list[i+1])
-    # sorting(client_list)
-    # # print(client_list)
-    # print(sort_client_list)
-    # print(count)
-    # cl_num = 0
-    # while cl_num != client-1:
-    #     # cl_num += 1
-    #     bfs(sort_client_list[cl_num][0], sort_client_list[cl_num][1])
-    #     print(cl_num)
-    # print(count)
-
+    print(client_list)
+    base = [[0]*(client_number+2) for i in range(client_number+2)]
+    for i in range(client_number+2):
+        for j in range(client_number+2):
+            base[i][j] = distance(client_list[i], client_list[j])
+    result = 0
+    mini = 10000
+    cnt = 0
+    visited = [[0]*(client_number+2) for _ in range(client_number+2)]
+    vivi = [0]*(client_number+2)
+    for i in range(client_number+2):
+        for j in range(client_number+2):
+            dfs(i, j)
+            print(mini)
+    # print(base)
 print(time.time() - st_time)
