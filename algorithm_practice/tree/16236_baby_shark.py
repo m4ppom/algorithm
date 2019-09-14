@@ -3,12 +3,22 @@ sys.stdin = open('inpu.txt', 'r')
 import copy
 
 
+def cnt():
+    global count, shark_size
+    count += 1
+    if count == shark_size:
+        shark_size += 1
+        count = 0
+        return
+
 
 def eating(lst):
-    global baby_cord
+    global baby_cord, time
     if lst:
+        x, y = baby_cord
+        base[x][y] = 0
         if len(lst)==1:
-            x, y = lst.pop()
+            x, y, time_tem = lst.pop()
             baby_cord = (x, y)
         else:
             new = sorted(lst)
@@ -17,6 +27,10 @@ def eating(lst):
                     if new[i][1] < new[j][1] and new[i][0] == new[j][0]:
                         new[i] , new[j] = new[j], new[i]
                         print(new)
+            x, y, time_tem = lst.pop(0)
+            baby_cord =(x, y)
+        time += time_tem
+        cnt()
     else:
         return
 
@@ -33,17 +47,16 @@ def bfs(x, y):
         for i in range(4):
             xx = x + dx[i]
             yy = y + dy[i]
-            ret = max(ret, base_copy[x][y])
             if 0 <= xx < N and 0 <= yy < N:
                 if 0< base[xx][yy] < shark_size  and base_copy[xx][yy] == 0:
-                    vict.append((xx, yy))
+                    vict.append((xx, yy, ret))
                     base_copy[xx][yy] = base_copy[x][y] + 1
                 elif base[xx][yy] == 0 or base[xx][yy] == shark_size:
                     if base_copy[xx][yy] == 0 and not vict:
                         q.append((xx, yy))
                         base_copy[xx][yy] = base_copy[x][y] + 1
     eating(vict)
-    return ret - 1
+    return
 
 
 dy = [-1, 1 ,0 ,0]
@@ -73,6 +86,15 @@ for test_num in range(1, testcase+1):
                 break
         if baby_cord:
             break
-    x, y = baby_cord
-    bfs(x, y)
-    print(vict)
+    brrr = 0
+    while brrr != 1:
+        x, y = baby_cord
+        bfs(x, y)
+        # print(time)
+        num = 0
+        for i in range(N):
+            for j in range(N):
+                if shark_size >= base[i][j] or base[i][j] == 0:
+                    num += 1
+        if num == N**2:
+            brrr = 1
