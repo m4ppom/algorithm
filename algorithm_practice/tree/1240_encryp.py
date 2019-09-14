@@ -25,14 +25,14 @@ cryp = [[0,0,0,1,1,0,1], [0,0,1,1,0,0,1], [0,0,1,0,0,1,1], [0,1,1,1,1,0,1],
 for test_num in range(1, testcase+1):
     N, M = map(int, input().split())
     base = [0]*N
-    death_note = []
+    # death_note = []
     for i in range(N):
         base[i] = list(map(int, input()))
-        if sum(base[i]) == 0:
-            death_note.append(i)
+        # if sum(base[i]) == 0:
+        #     death_note.append(i)
     # print(death_note)
-    for i in range(len(death_note)-1, -1, -1):
-        base.pop(death_note[i])
+    # for i in range(len(death_note)-1, -1, -1):
+    #     base.pop(death_note[i])
     # print(base)
     num_list = [0]*7
     cryp_list = [0]*8
@@ -48,9 +48,10 @@ for test_num in range(1, testcase+1):
                 top -= 1
             else:
                 base[i].pop(-1)
-        if enc(cryp_list[0:7]) == cryp_list[7]:
-            summ += sum(cryp_list)
-        break
+        # if enc(cryp_list[0:7]) == cryp_list[7] and sum(cryp_list) != 0:
+        if (10-((3*(cryp_list[0]+cryp_list[2]+cryp_list[4]+cryp_list[6])+cryp_list[1]+cryp_list[3]+cryp_list[5])%10)%10) == cryp_list[7] and sum(cryp_list) != 0:
+            summ = sum(cryp_list)
+            break
     print('#{} {}'.format(test_num, summ))
 
 # a = [7,5,7,5,5,0,2,7]
