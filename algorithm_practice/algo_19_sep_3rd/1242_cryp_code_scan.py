@@ -195,6 +195,7 @@ for test_num in range(1, testcase+1):
     for i in range(N):
         for j in range(M-1, -1, -1):
             if base[i][j] != '0':
+                # print(base[i][j], end=' ')
                 if base[i][j] == 'A':
                     base[i][j] = 10
                 elif base[i][j] == 'B':
@@ -250,7 +251,12 @@ for test_num in range(1, testcase+1):
         #             else:
         #                 pass
     # print('다다ㅏ다다답모으므므므으므으므', result)
-    # print(result)
+    print(result)
+    a = []
+    for i in range(1, len(result)):
+        if result[i][2] not in a:
+            a.append(result[i][2])
+    print(a)
     summ = 0
     laalal = []
     for i in range(1, len(result)):
@@ -261,7 +267,7 @@ for test_num in range(1, testcase+1):
     # while len(result) != 1:
     for i in range(1,len(result)):
         for j in range(i+1, len(result)):
-            if result[i][2] == result[j][2] and result[i][1]+1 == result[j][1]:
+            if result[i][2] == result[j][2] and result[i][1]+1 == result[j][1] and result[i][1] - result[j][1] < 10 :
                 result[j][0] = 0
     for i in range(1,len(result)):
         summ += result[i][0]
