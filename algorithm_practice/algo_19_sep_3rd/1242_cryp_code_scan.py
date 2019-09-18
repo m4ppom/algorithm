@@ -94,6 +94,7 @@ def encryp3(i, j):
 
     return
 
+
 def encryp(i, j):
     global code_ratio
     # list poping reverse
@@ -107,10 +108,22 @@ def encryp(i, j):
         while num_top != -1:
             if len(base[i])==1:
                 break
-            if code_ratio[0] != 0:
+            temp = [9, 9, 9, 9]
+            if code_ratio[0] != 0 and min(code_ratio) != 0:
+                print(code_ratio)
+                bb = min(code_ratio)
+                temp = code_ratio
+                for l in range(4):
+                    if code_ratio[l] % bb:
+                        break
+                else:
+                    for nn in range(4):
+                        temp[nn] //= bb
+            if code_ratio[0] != 0 and temp in cryp:
                 aa = sum(code_ratio) % 7
-                bb = sum(code_ratio) // 7
-                if aa == 0:
+                bb = min(code_ratio)
+                # print(code_ratio)
+                if aa == 0 and bb != 0:
                     for l in range(4):
                         if code_ratio[l] % bb:
                             break
@@ -251,12 +264,12 @@ for test_num in range(1, testcase+1):
         #             else:
         #                 pass
     # print('다다ㅏ다다답모으므므므으므으므', result)
-    print(result)
+    # print(result)
     a = []
     for i in range(1, len(result)):
         if result[i][2] not in a:
             a.append(result[i][2])
-    print(a)
+    # print(a)
     summ = 0
     laalal = []
     for i in range(1, len(result)):
@@ -269,7 +282,7 @@ for test_num in range(1, testcase+1):
         for j in range(i+1, len(result)):
             if result[i][2] == result[j][2] and result[i][1]+1 == result[j][1] and result[i][1] - result[j][1] < 10 :
                 result[j][0] = 0
-    for i in range(1,len(result)):
+    for i in range(1, len(result)):
         summ += result[i][0]
     # if len(result) > 2:
     #     for i in range(1,len(result)):

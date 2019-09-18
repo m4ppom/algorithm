@@ -2,16 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7543d34c-9b95-4aa1-b217-e8fe4893aad8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/algo_19_sep_3rd/1865_dong7_work-Percent.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algo_19_sep_3rd/4366_jungsick_bankworks.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algo_19_sep_3rd/dong7.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algo_19_sep_3rd/jungsick.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algo_19_sep_3rd/prac.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algo_19_sep_3rd/recursion_selection.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/20190812.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/20190812.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algo_19_sep_3rd/5021_container.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algo_19_sep_3rd/5188_minimum_sum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algo_19_sep_3rd/5189_elec_cart.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algo_19_sep_3rd/5202_cargo_dock.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algo_19_sep_3rd/5203_baby_jin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algo_19_sep_3rd/baby_jin.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algo_19_sep_3rd/cargo.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algo_19_sep_3rd/contain.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algo_19_sep_3rd/eleccart.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algo_19_sep_3rd/minisum.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/algo_19_sep_3rd/1242_cryp_code_scan.py" beforeDir="false" afterPath="$PROJECT_DIR$/algo_19_sep_3rd/1242_cryp_code_scan.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo_19_sep_3rd/inpu.txt" beforeDir="false" afterPath="$PROJECT_DIR$/algo_19_sep_3rd/inpu.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,54 +28,49 @@
         <counts>
           <entry key="project.closed" value="1" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="6" />
-          <entry key="txt" value="7" />
+          <entry key="py" value="17" />
+          <entry key="txt" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="7" />
-          <entry key="Python" value="6" />
+          <entry key="PLAIN_TEXT" value="17" />
+          <entry key="Python" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="35" />
-          <entry key="py" value="3911" />
-          <entry key="txt" value="23" />
+          <entry key="py" value="8351" />
+          <entry key="txt" value="135" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="23" />
-          <entry key="Python" value="3946" />
+          <entry key="PLAIN_TEXT" value="135" />
+          <entry key="Python" value="8386" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.56914896">
+    <splitter split-orientation="horizontal" split-proportion="0.73031676">
       <split-first>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/algo_19_sep_3rd/1242_cryp_code_scan.py">
+            <entry file="file://$PROJECT_DIR$/algo_19_sep_3rd/5189_elec_cart.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="135">
-                  <caret line="235" column="41" selection-start-line="235" selection-start-column="41" selection-end-line="235" selection-end-column="41" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://C:/Program Files/Python35/Lib/codecs.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="214">
-                  <caret line="308" selection-start-line="308" selection-end-line="308" />
+                <state relative-caret-position="209">
+                  <caret line="15" selection-start-line="15" selection-end-line="23" selection-end-column="22" />
+                  <folding>
+                    <element signature="e#0#16#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -80,8 +78,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/algo_19_sep_3rd/prac.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="417">
-                  <caret line="88" column="46" selection-start-line="88" selection-start-column="46" selection-end-line="88" selection-end-column="46" />
+                <state relative-caret-position="-850">
+                  <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
                   <folding>
                     <marker date="1568691502275" expanded="true" signature="75:153" ph="..." />
                     <marker date="1568691502275" expanded="true" signature="1410:1415" ph="..." />
@@ -91,12 +89,24 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/algo_19_sep_3rd/1865_dong7_work-Percent.py">
+            <entry file="file://$PROJECT_DIR$/algo_19_sep_3rd/5203_baby_jin.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="285">
-                  <caret line="83" column="29" lean-forward="true" selection-start-line="83" selection-start-column="29" selection-end-line="83" selection-end-column="29" />
+                <state relative-caret-position="499">
+                  <caret line="60" column="19" lean-forward="true" selection-start-line="60" selection-start-column="19" selection-end-line="60" selection-end-column="19" />
                   <folding>
-                    <element signature="e#0#10#0" expanded="true" />
+                    <marker date="1568801956650" expanded="true" signature="72:694" ph="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/algo_19_sep_3rd/5188_minimum_sum.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="171">
+                  <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+                  <folding>
+                    <marker date="1568771440991" expanded="true" signature="70:432" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -107,19 +117,10 @@
       <split-second>
         <leaf>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/algo_19_sep_3rd/dong7.txt">
+            <entry file="file://$PROJECT_DIR$/algo_19_sep_3rd/baby_jin.txt">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="380">
-                  <caret line="20" column="43" lean-forward="true" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/algo_19_sep_3rd/inpu.txt">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="152">
-                  <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+                <state relative-caret-position="38">
+                  <caret line="2" lean-forward="true" selection-end-line="2" />
                 </state>
               </provider>
             </entry>
@@ -148,18 +149,28 @@
       <list>
         <option value="$PROJECT_DIR$/algo_19_sep_3rd/recursion_selection.py" />
         <option value="$PROJECT_DIR$/algo_19_sep_3rd/prac.py" />
-        <option value="$PROJECT_DIR$/algo_19_sep_3rd/inpu.txt" />
-        <option value="$PROJECT_DIR$/algo_19_sep_3rd/1242_cryp_code_scan.py" />
         <option value="$PROJECT_DIR$/algo_19_sep_3rd/jungsick.txt" />
         <option value="$PROJECT_DIR$/algo_19_sep_3rd/4366_jungsick_bankworks.py" />
         <option value="$PROJECT_DIR$/algo_19_sep_3rd/dong7.txt" />
         <option value="$PROJECT_DIR$/algo_19_sep_3rd/1865_dong7_work-Percent.py" />
+        <option value="$PROJECT_DIR$/algo_19_sep_3rd/inpu.txt" />
+        <option value="$PROJECT_DIR$/algo_19_sep_3rd/1242_cryp_code_scan.py" />
+        <option value="$PROJECT_DIR$/algo_19_sep_3rd/minisum.txt" />
+        <option value="$PROJECT_DIR$/algo_19_sep_3rd/eleccart.txt" />
+        <option value="$PROJECT_DIR$/algo_19_sep_3rd/5188_minimum_sum.py" />
+        <option value="$PROJECT_DIR$/algo_19_sep_3rd/contain.txt" />
+        <option value="$PROJECT_DIR$/algo_19_sep_3rd/5021_container.py" />
+        <option value="$PROJECT_DIR$/algo_19_sep_3rd/5189_elec_cart.py" />
+        <option value="$PROJECT_DIR$/algo_19_sep_3rd/cargo.txt" />
+        <option value="$PROJECT_DIR$/algo_19_sep_3rd/5202_cargo_dock.py" />
+        <option value="$PROJECT_DIR$/algo_19_sep_3rd/5203_baby_jin.py" />
+        <option value="$PROJECT_DIR$/algo_19_sep_3rd/baby_jin.txt" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="146" />
-    <option name="width" value="1732" />
+    <option name="x" value="545" />
+    <option name="width" value="1333" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectId" id="1Qit9fE9QwWS8MIgarYAmflS1Cc" />
@@ -206,8 +217,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.1865_dong7_work-Percent">
-    <configuration name="1242_cryp_code_scan" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.5203_baby_jin">
+    <configuration name="5021_container" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="20190812" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -219,7 +230,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algo_19_sep_3rd/1242_cryp_code_scan.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algo_19_sep_3rd/5021_container.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -228,7 +239,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="1865_dong7_work-Percent" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="5188_minimum_sum" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="20190812" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -240,7 +251,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algo_19_sep_3rd/1865_dong7_work-Percent.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algo_19_sep_3rd/5188_minimum_sum.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -249,7 +260,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="4366_jungsick_bankworks" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="5189_elec_cart" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="20190812" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -261,7 +272,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algo_19_sep_3rd/4366_jungsick_bankworks.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algo_19_sep_3rd/5189_elec_cart.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -270,7 +281,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="prac (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="5202_cargo_dock" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="20190812" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -282,7 +293,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algo_19_sep_3rd/prac.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algo_19_sep_3rd/5202_cargo_dock.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -291,7 +302,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="recursion_selection" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="5203_baby_jin" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="20190812" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -303,7 +314,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algo_19_sep_3rd/recursion_selection.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algo_19_sep_3rd/5203_baby_jin.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -313,19 +324,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.1242_cryp_code_scan" />
-      <item itemvalue="Python.recursion_selection" />
-      <item itemvalue="Python.prac (1)" />
-      <item itemvalue="Python.1865_dong7_work-Percent" />
-      <item itemvalue="Python.4366_jungsick_bankworks" />
+      <item itemvalue="Python.5188_minimum_sum" />
+      <item itemvalue="Python.5189_elec_cart" />
+      <item itemvalue="Python.5021_container" />
+      <item itemvalue="Python.5202_cargo_dock" />
+      <item itemvalue="Python.5203_baby_jin" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.1865_dong7_work-Percent" />
-        <item itemvalue="Python.4366_jungsick_bankworks" />
-        <item itemvalue="Python.1242_cryp_code_scan" />
-        <item itemvalue="Python.prac (1)" />
-        <item itemvalue="Python.recursion_selection" />
+        <item itemvalue="Python.5203_baby_jin" />
+        <item itemvalue="Python.5202_cargo_dock" />
+        <item itemvalue="Python.5189_elec_cart" />
+        <item itemvalue="Python.5021_container" />
+        <item itemvalue="Python.5188_minimum_sum" />
       </list>
     </recent_temporary>
   </component>
@@ -353,22 +364,23 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="146" y="0" width="1732" height="1047" extended-state="0" />
+    <frame x="545" y="0" width="1333" height="1047" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11216056" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14671814" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" weight="0.32894737" />
-      <window_info anchor="bottom" id="Python Console" weight="0.32894737" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32894737" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.21052632" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.26535088" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.21052632" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.28179824" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32894737" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32894737" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32894737" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -554,6 +566,41 @@
           <line>100</line>
           <option name="timeStamp" value="152" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algo_19_sep_3rd/1242_cryp_code_scan.py</url>
+          <line>284</line>
+          <option name="timeStamp" value="154" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algo_19_sep_3rd/1242_cryp_code_scan.py</url>
+          <line>107</line>
+          <option name="timeStamp" value="157" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algo_19_sep_3rd/5021_container.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="163" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algo_19_sep_3rd/5021_container.py</url>
+          <line>29</line>
+          <option name="timeStamp" value="164" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algo_19_sep_3rd/5202_cargo_dock.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="166" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algo_19_sep_3rd/5203_baby_jin.py</url>
+          <line>40</line>
+          <option name="timeStamp" value="167" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algo_19_sep_3rd/5203_baby_jin.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="168" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -567,15 +614,20 @@
       <configuration name="PythonConfigurationType">
         <watch expression="base" language="Python" />
         <watch expression="code_ratio" language="Python" />
-        <watch expression="cnt" language="Python" />
         <watch expression="result" language="Python" />
         <watch expression="number_list" language="Python" />
         <watch expression="visit" language="Python" />
+        <watch expression="cnt" language="Python" />
       </configuration>
     </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
+      <expression>
+        <expression-string>cnt</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>visit</expression-string>
         <language-id>Python</language-id>
@@ -588,11 +640,6 @@
       </expression>
       <expression>
         <expression-string>result</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>cnt</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -616,24 +663,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/algo_19_sep_3rd/prac.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="88" column="46" selection-start-line="88" selection-start-column="46" selection-end-line="88" selection-end-column="46" />
-          <folding>
-            <marker date="1568691502275" expanded="true" signature="75:153" ph="..." />
-            <marker date="1568691502275" expanded="true" signature="1410:1415" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Program Files/Python35/Lib/codecs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="308" selection-start-line="308" selection-end-line="308" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/algo_19_sep_3rd/4366_jungsick_bankworks.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1178">
@@ -644,13 +673,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/algo_19_sep_3rd/1242_cryp_code_scan.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="235" column="41" selection-start-line="235" selection-start-column="41" selection-end-line="235" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/algo_19_sep_3rd/jungsick.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -658,27 +680,141 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/algo_19_sep_3rd/dong7.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="20" column="43" lean-forward="true" selection-start-line="1" selection-end-line="20" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/algo_19_sep_3rd/inpu.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+        <state relative-caret-position="399">
+          <caret line="21" column="45" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algo_19_sep_3rd/1242_cryp_code_scan.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="453">
+          <caret line="80" column="42" lean-forward="true" selection-start-line="80" selection-start-column="42" selection-end-line="80" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/algo_19_sep_3rd/1865_dong7_work-Percent.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="83" column="29" lean-forward="true" selection-start-line="83" selection-start-column="29" selection-end-line="83" selection-end-column="29" />
+          <caret line="83" column="29" selection-start-line="83" selection-start-column="29" selection-end-line="83" selection-end-column="29" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/algo_19_sep_3rd/dong7.txt">
+    <entry file="file://$PROJECT_DIR$/algo_19_sep_3rd/eleccart.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="43" lean-forward="true" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
+        <state relative-caret-position="304">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algo_19_sep_3rd/contain.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algo_19_sep_3rd/5021_container.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algo_19_sep_3rd/prac.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-850">
+          <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+          <folding>
+            <marker date="1568691502275" expanded="true" signature="75:153" ph="..." />
+            <marker date="1568691502275" expanded="true" signature="1410:1415" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python35/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-247">
+          <caret line="308" selection-start-line="308" selection-end-line="308" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/14501_getout.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="79" column="24" lean-forward="true" selection-start-line="79" selection-start-column="24" selection-end-line="79" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algo_19_sep_3rd/5202_cargo_dock.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+          <folding>
+            <marker date="1568797871306" expanded="true" signature="414:1264" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algo_19_sep_3rd/5189_elec_cart.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="15" selection-start-line="15" selection-end-line="23" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algo_19_sep_3rd/5188_minimum_sum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+          <folding>
+            <marker date="1568771440991" expanded="true" signature="70:432" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algo_19_sep_3rd/minisum.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algo_19_sep_3rd/cargo.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="2" lean-forward="true" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algo_19_sep_3rd/baby_jin.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" lean-forward="true" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algo_19_sep_3rd/5203_baby_jin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="499">
+          <caret line="60" column="19" lean-forward="true" selection-start-line="60" selection-start-column="19" selection-end-line="60" selection-end-column="19" />
+          <folding>
+            <marker date="1568801956650" expanded="true" signature="72:694" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
