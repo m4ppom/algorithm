@@ -55,6 +55,9 @@ def func():
 #     func()
 #     print('#%d %d' % (tc, len(res)))
 #
+import copy
+
+
 testcase = int(input())
 for test_num in range(1, testcase+1):
     N = int(input())
@@ -68,6 +71,16 @@ for test_num in range(1, testcase+1):
         base[i] = list(map(int, input().split()))
     base = sorted(base)
     # print(base)
+    a = copy.deepcopy(base)
+    for i in range(len(base)):
+        for j in range(i+1, len(base)):
+            if base[i][0] == base[j][0]:
+                a[j] = 0
+    new = []
+    for i in range(len(a)):
+        if a[i] != 0:
+            new.append(a[i])
+    base = new
     aa = abs(base[0][0] - base[0][1])
     pathfinder(0, 0)
 
