@@ -1,7 +1,7 @@
 import sys
 sys.stdin = open('inpu.txt', 'r')
 import copy
-​
+
 #
 # def dfs(y, x):
 #     global cnt, dircnt
@@ -17,8 +17,6 @@ import copy
 #     cnt -= 1
 #     dircnt -= 1
 #     return
-#
-#
 # dy = [-1, 1, 0, 0]
 # dx = [0, 0, -1, 1]
 # row, col = map(int, input().split())
@@ -43,7 +41,6 @@ import copy
 #                     print(maxi, 'aaa',a[aaa][1])
 #             re.append(maxi)
 #             a = []
-#
 # print(re)
 # print(a)
 # print(maxi+1)
@@ -66,11 +63,11 @@ def BFS(x, y):
                     q.append((xx, yy))
                     dist[xx][yy] = dist[x][y] + 1
     return ret - 1
-​
-​
+
+
 N, M = map(int, input().split())
 G = [input() for i in range(N)]
-​
+
 ans = 0
 for i in range(N):
     for j in range(M):

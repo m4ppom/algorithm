@@ -36,7 +36,6 @@ sys.stdin = open("1267_dfs_sequence", "r")
 #     print(' '.join(map(str, result)))
 #     print('v',V,len(result))
 
-#
 def dfs(start):
     global result
 
@@ -248,10 +247,9 @@ def DFS(start_node):
                         break
     for j in visited:
         print(j)
-​
-​
+
 matrix_column, matrix_row = map(int, input().split())
-​
+
 matrix = [list(map(int, input().split())) for _ in range(matrix_column)]
 dx = [0, 0, -1, 1]
 dy = [-1, 1, 0, 0]

@@ -2,37 +2,159 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7543d34c-9b95-4aa1-b217-e8fe4893aad8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/naver_line_coding/brown.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/naver_line_coding/brown.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/naver_line_coding/chusuck.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/naver_line_coding/chusuck.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/naver_line_coding/combi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/naver_line_coding/combi.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/naver_line_coding/cony.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/naver_line_coding/cony.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/naver_line_coding/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/naver_line_coding/mail.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/naver_line_coding/mail.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/naver_line_coding/mes_input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/naver_line_coding/message.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/naver_line_coding/mul_num.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/naver_line_coding/mul_numberr.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/naver_line_coding/number.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/naver_line_coding/number.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/naver_line_coding/practice.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/naver_line_coding/res_room.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/naver_line_coding/res_room.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/s2s3_ad_study/15649_N&amp;M.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/s2s3_ad_study/N&amp;M1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algo_19_sep_4th/5521_sangwon_birthday.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algo_19_sep_4th/birth.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algo_19_sep_4th/prac.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/s2s3_ad_study/9663_NQueen.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/s2s3_ad_study/NQ.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/20190812.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/20190812.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1267_dfs_sequence.py" beforeDir="false" afterPath="$PROJECT_DIR$/1267_dfs_sequence.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2589_treas.py" beforeDir="false" afterPath="$PROJECT_DIR$/2589_treas.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo_19_sep_3rd/5208_elecbus2.py" beforeDir="false" afterPath="$PROJECT_DIR$/algo_19_sep_3rd/5208_elecbus2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/s2s3_ad_study/15649_N&amp;M.py" beforeDir="false" afterPath="$PROJECT_DIR$/s2s3_ad_study/15649_N&amp;M.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/s2s3_ad_study/N&amp;M1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/s2s3_ad_study/N&amp;M1.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1391620595">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="1267_dfs_sequence" value="1" />
+          <entry key="py" value="11" />
+          <entry key="txt" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="PLAIN_TEXT" value="5" />
+          <entry key="Python" value="11" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="7" />
+          <entry key="py" value="2910" />
+          <entry key="txt" value="31" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="38" />
+          <entry key="Python" value="2910" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/algo_19_sep_4th/prac.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1049">
+              <caret line="92" column="7" selection-start-line="92" selection-start-column="7" selection-end-line="92" selection-end-column="7" />
+              <folding>
+                <marker date="1569223253435" expanded="true" signature="75:319" ph="..." />
+                <marker date="1569223253435" expanded="true" signature="316:317" ph="..." />
+                <marker date="1569223253435" expanded="true" signature="341:342" ph="..." />
+                <marker date="1569223253435" expanded="true" signature="341:1425" ph="..." />
+                <marker date="1569223253435" expanded="true" signature="341:1442" ph="..." />
+                <marker date="1569223253435" expanded="true" signature="901:1025" ph="..." />
+                <marker date="1569223253435" expanded="true" signature="1267:1414" ph="..." />
+                <marker date="1569223253435" expanded="true" signature="1760:1765" ph="..." />
+                <marker date="1569223253435" expanded="true" signature="1760:1775" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/algo_19_sep_4th/5521_sangwon_birthday.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="26" column="16" lean-forward="true" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
+              <folding>
+                <marker date="1569227694207" expanded="true" signature="495:799" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/s2s3_ad_study/9663_NQueen.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="166">
+              <caret line="50" selection-start-line="50" selection-end-line="50" />
+              <folding>
+                <element signature="e#507#906#0" />
+                <marker date="1569221092201" expanded="true" signature="606:1117" ph="..." />
+                <marker date="1569221092201" expanded="true" signature="1350:1404" ph="..." />
+                <marker date="1569221092201" expanded="true" signature="1531:1543" ph="..." />
+                <marker date="1569221092201" expanded="true" signature="1531:1554" ph="..." />
+                <marker date="1569221092201" expanded="true" signature="1531:1555" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/algo_19_sep_4th/birth.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://C:/Program Files/Python35/Lib/codecs.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="174">
+              <caret line="308" selection-start-line="308" selection-end-line="308" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/s2s3_ad_study/NQ.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="1" selection-start-column="1" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/s2s3_ad_study/N&amp;M1.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="3" selection-start-column="3" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/2589_treas.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -49,9 +171,55 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/algo_19_sep_3rd/5208_elecbus2.py" />
+        <option value="$PROJECT_DIR$/1267_dfs_sequence.py" />
+        <option value="$PROJECT_DIR$/2589_treas.py" />
+        <option value="$PROJECT_DIR$/s2s3_ad_study/N&amp;M1.txt" />
+        <option value="$PROJECT_DIR$/s2s3_ad_study/15649_N&amp;M.py" />
+        <option value="$PROJECT_DIR$/s2s3_ad_study/9663.py" />
+        <option value="$PROJECT_DIR$/s2s3_ad_study/9663_NQueen.py" />
+        <option value="$PROJECT_DIR$/s2s3_ad_study/NQ.txt" />
+        <option value="$PROJECT_DIR$/algo_19_sep_4th/prac.py" />
+        <option value="$PROJECT_DIR$/algo_19_sep_4th/birth.txt" />
+        <option value="$PROJECT_DIR$/algo_19_sep_4th/5521_sangwon_birthday.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="475" />
+    <option name="width" value="1403" />
+    <option name="height" value="1047" />
+  </component>
   <component name="ProjectId" id="1Qit9fE9QwWS8MIgarYAmflS1Cc" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="algorithm_practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithm_practice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithm_practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithm_practice" type="462c0819:PsiDirectoryNode" />
+              <item name="algo_19_sep_4th" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -69,7 +237,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.15649_N&amp;M">
+  <component name="RunManager" selected="Python.5521_sangwon_birthday">
     <configuration name="15649_N&amp;M" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="20190812" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -91,7 +259,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="cony" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="2589_treas" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="20190812" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -99,11 +267,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/naver_line_coding" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/naver_line_coding/cony.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2589_treas.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -112,7 +280,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="mail" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="5521_sangwon_birthday" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="20190812" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -120,11 +288,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/naver_line_coding" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algo_19_sep_4th" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/naver_line_coding/mail.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algo_19_sep_4th/5521_sangwon_birthday.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -133,7 +301,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="mul_numberr" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="9663_NQueen" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="20190812" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -141,11 +309,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/naver_line_coding" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/s2s3_ad_study" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/naver_line_coding/mul_numberr.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/s2s3_ad_study/9663_NQueen.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -154,7 +322,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="number" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="prac" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="20190812" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -162,11 +330,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/naver_line_coding" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algo_19_sep_4th" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/naver_line_coding/number.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algo_19_sep_4th/prac.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -176,19 +344,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.number" />
-      <item itemvalue="Python.cony" />
-      <item itemvalue="Python.mail" />
-      <item itemvalue="Python.mul_numberr" />
       <item itemvalue="Python.15649_N&amp;M" />
+      <item itemvalue="Python.prac" />
+      <item itemvalue="Python.2589_treas" />
+      <item itemvalue="Python.9663_NQueen" />
+      <item itemvalue="Python.5521_sangwon_birthday" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.5521_sangwon_birthday" />
+        <item itemvalue="Python.9663_NQueen" />
         <item itemvalue="Python.15649_N&amp;M" />
-        <item itemvalue="Python.mul_numberr" />
-        <item itemvalue="Python.mail" />
-        <item itemvalue="Python.number" />
-        <item itemvalue="Python.cony" />
+        <item itemvalue="Python.2589_treas" />
+        <item itemvalue="Python.prac" />
       </list>
     </recent_temporary>
   </component>
@@ -215,18 +383,50 @@
     </task>
     <servers />
   </component>
+  <component name="ToolWindowManager">
+    <frame x="475" y="0" width="1403" height="1047" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16703297" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Python Console" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.22149123" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4002193" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
             <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
               <option name="COLUMN_ORDER" />
             </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -526,6 +726,71 @@
           <line>77</line>
           <option name="timeStamp" value="213" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algo_19_sep_3rd/5208_elecbus2.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="214" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algo_19_sep_3rd/5208_elecbus2.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="215" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algo_19_sep_4th/prac.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="216" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algo_19_sep_4th/prac.py</url>
+          <line>83</line>
+          <option name="timeStamp" value="217" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algo_19_sep_4th/prac.py</url>
+          <line>48</line>
+          <option name="timeStamp" value="218" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/2589_treas.py</url>
+          <line>46</line>
+          <option name="timeStamp" value="219" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/s2s3_ad_study/15649_N&amp;M.py</url>
+          <line>37</line>
+          <option name="timeStamp" value="220" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/s2s3_ad_study/15649_N&amp;M.py</url>
+          <line>53</line>
+          <option name="timeStamp" value="221" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/s2s3_ad_study/9663_NQueen.py</url>
+          <line>50</line>
+          <option name="timeStamp" value="222" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/s2s3_ad_study/9663_NQueen.py</url>
+          <line>71</line>
+          <option name="timeStamp" value="223" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/s2s3_ad_study/9663_NQueen.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="227" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algo_19_sep_4th/5521_sangwon_birthday.py</url>
+          <line>24</line>
+          <option name="timeStamp" value="229" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algo_19_sep_4th/5521_sangwon_birthday.py</url>
+          <line>51</line>
+          <option name="timeStamp" value="230" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -538,10 +803,151 @@
     <watches-manager>
       <configuration name="PythonConfigurationType">
         <watch expression="base" language="Python" />
-        <watch expression="number" language="Python" />
         <watch expression="cnt" language="Python" />
-        <watch expression="mini" language="Python" />
+        <watch expression="ans" language="Python" />
+        <watch expression="a" language="Python" />
+        <watch expression="v" language="Python" />
       </configuration>
     </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>v</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>ans</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>a</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>visited</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/1267_dfs_sequence">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1267_dfs.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1267_dfs_sequence.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="249" selection-start-line="249" selection-end-line="249" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algo_19_sep_3rd/5208_elecbus2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algo_19_sep_3rd/5189_elec_cart.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2589_treas.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/s2s3_ad_study/N&amp;M1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="3" selection-start-column="3" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/s2s3_ad_study/15649_N&amp;M.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/s2s3_ad_study/NQ.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python35/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="308" selection-start-line="308" selection-end-line="308" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algo_19_sep_4th/prac.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1049">
+          <caret line="92" column="7" selection-start-line="92" selection-start-column="7" selection-end-line="92" selection-end-column="7" />
+          <folding>
+            <marker date="1569223253435" expanded="true" signature="75:319" ph="..." />
+            <marker date="1569223253435" expanded="true" signature="316:317" ph="..." />
+            <marker date="1569223253435" expanded="true" signature="341:342" ph="..." />
+            <marker date="1569223253435" expanded="true" signature="341:1425" ph="..." />
+            <marker date="1569223253435" expanded="true" signature="341:1442" ph="..." />
+            <marker date="1569223253435" expanded="true" signature="901:1025" ph="..." />
+            <marker date="1569223253435" expanded="true" signature="1267:1414" ph="..." />
+            <marker date="1569223253435" expanded="true" signature="1760:1765" ph="..." />
+            <marker date="1569223253435" expanded="true" signature="1760:1775" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/s2s3_ad_study/9663_NQueen.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+          <folding>
+            <element signature="e#507#906#0" />
+            <marker date="1569221092201" expanded="true" signature="606:1117" ph="..." />
+            <marker date="1569221092201" expanded="true" signature="1350:1404" ph="..." />
+            <marker date="1569221092201" expanded="true" signature="1531:1543" ph="..." />
+            <marker date="1569221092201" expanded="true" signature="1531:1554" ph="..." />
+            <marker date="1569221092201" expanded="true" signature="1531:1555" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algo_19_sep_4th/5521_sangwon_birthday.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="26" column="16" lean-forward="true" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
+          <folding>
+            <marker date="1569227694207" expanded="true" signature="495:799" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algo_19_sep_4th/birth.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
