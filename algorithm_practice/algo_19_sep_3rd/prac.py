@@ -227,4 +227,34 @@ for i in range(len(templ) // 2):
 postorder_traverse(1)
 print()
 
+def finder(start):
+    global N, summ, mini
+    if start == N:
+        if mini > summ:
+            mini = summ
+        return
+    visited[start] = 1
+    for i in range(N+1):
+        if base[start][i] != 0 and visited[i] == 0:
+            visited[i] = 1
+            summ += base[start][i]
+            finder(i)
+            summ -= base[start][i]
+            visited[i] = 0
+
+
+testcase = int(input())
+for test_num in range(1, testcase + 1):
+    N, M = map(int, input().split())
+    base=[[0]*(N+1) for _ in range(N+1)]
+    for _ in range(M):
+        a, b, c = map(int, input().split())
+        base[a][b] = c
+    mini = 9900000
+    for i in range(N+1):
+        visited = [0]*(N+1)
+        summ = 0
+        visited[i] = 1
+        finder(i)
+    print('#%d %d' % (test_num, mini))
 

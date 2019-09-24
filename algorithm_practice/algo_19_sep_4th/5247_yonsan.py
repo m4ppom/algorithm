@@ -2,18 +2,21 @@ import sys
 sys.stdin = open('yonsan.txt')
 sys.setrecursionlimit(100000)
 
+import collections
 
 testcase = int(input())
 for test_num in range(1, testcase + 1):
     N, M = map(int, input().split())
     visited = [0] * 1000001
-    queue = [N]
+    queue = collections.deque()
+    queue.append(N)
     temp = 0
     de = 0
     while queue:
         de += 1
         for _ in range(len(queue)):
-            c = queue.pop(0)
+            c = queue.popleft()
+            # print(c)
             for i in range(4):
                 if i == 0:
                     temp = c + 1
@@ -27,7 +30,7 @@ for test_num in range(1, testcase + 1):
                     if visited[temp] == 0:
                         if temp == M:
                             break
-                        queue += [temp]
+                        queue.append(temp)
                         visited[temp] = 1
             if temp == M:
                 break
