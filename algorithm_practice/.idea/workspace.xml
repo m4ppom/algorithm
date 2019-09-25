@@ -2,22 +2,130 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7543d34c-9b95-4aa1-b217-e8fe4893aad8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/s2s3_ad_study/15650_N&amp;M2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algo_19_sep_4th/1244_maximum_reward.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algo_19_sep_4th/1861_squ_room.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algo_19_sep_4th/7465_changyong_vilage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algo_19_sep_4th/reward.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algo_19_sep_4th/squ_room.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algo_19_sep_4th/yongvilage.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/20190812.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/20190812.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algo_19_sep_3rd/prac.py" beforeDir="false" afterPath="$PROJECT_DIR$/algo_19_sep_3rd/prac.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algo_19_sep_4th/5247_yonsan.py" beforeDir="false" afterPath="$PROJECT_DIR$/algo_19_sep_4th/5247_yonsan.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/naver_line_coding/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/naver_line_coding/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/naver_line_coding/practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/naver_line_coding/practice.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/s2s3_ad_study/9663_NQueen.py" beforeDir="false" afterPath="$PROJECT_DIR$/s2s3_ad_study/9663_NQueen.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/s2s3_ad_study/NQ.txt" beforeDir="false" afterPath="$PROJECT_DIR$/s2s3_ad_study/NQ.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1391620595">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="10" />
+          <entry key="reward" value="1" />
+          <entry key="txt" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="PLAIN_TEXT" value="6" />
+          <entry key="Python" value="10" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="2209" />
+          <entry key="txt" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="Python" value="2209" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/algo_19_sep_4th/1244_maximum_reward.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="3" selection-end-column="35" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+                <marker date="1569376652165" expanded="true" signature="112:236" ph="..." />
+                <marker date="1569376652165" expanded="true" signature="406:1080" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/algo_19_sep_4th/7465_changyong_vilage.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/algo_19_sep_4th/1861_squ_room.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+                <marker date="1569384265994" expanded="true" signature="124:680" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/s2s3_ad_study/9663_NQueen.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="233">
+              <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/s2s3_ad_study/15649_N&amp;M.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="25" column="12" lean-forward="true" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apl/prac.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2555" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/algo_19_sep_3rd/prac.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="22" column="28" lean-forward="true" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -34,9 +142,55 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/algo_19_sep_4th/reward.txt" />
+        <option value="$PROJECT_DIR$/algo_19_sep_4th/1244_maximum_reward.py" />
+        <option value="$PROJECT_DIR$/algo_19_sep_4th/yongvilage.txt" />
+        <option value="$PROJECT_DIR$/algo_19_sep_4th/7465_changyong_vilage.py" />
+        <option value="$PROJECT_DIR$/algo_19_sep_4th/squ_room.txt" />
+        <option value="$PROJECT_DIR$/algo_19_sep_4th/1861_squ_room.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="667" />
+    <option name="width" value="1211" />
+    <option name="height" value="1047" />
+  </component>
   <component name="ProjectId" id="1Qit9fE9QwWS8MIgarYAmflS1Cc" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="algorithm_practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithm_practice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithm_practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithm_practice" type="462c0819:PsiDirectoryNode" />
+              <item name="algo_19_sep_3rd" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithm_practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithm_practice" type="462c0819:PsiDirectoryNode" />
+              <item name="s2s3_ad_study" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -54,7 +208,49 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.9663_NQueen">
+  <component name="RunManager" selected="Python.1861_squ_room">
+    <configuration name="1244_maximum_reward" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="20190812" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algo_19_sep_4th" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algo_19_sep_4th/1244_maximum_reward.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="1861_squ_room" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="20190812" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algo_19_sep_4th" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algo_19_sep_4th/1861_squ_room.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="5247_yonsan" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="20190812" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -76,7 +272,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="5248_div_group" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="7465_changyong_vilage" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="20190812" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -88,49 +284,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algo_19_sep_4th/5248_div_group.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="5249_MST" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="20190812" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algo_19_sep_4th" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algo_19_sep_4th/5249_MST.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="5521_sangwon_birthday" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="20190812" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algo_19_sep_4th" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algo_19_sep_4th/5521_sangwon_birthday.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algo_19_sep_4th/7465_changyong_vilage.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -162,18 +316,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.9663_NQueen" />
-      <item itemvalue="Python.5521_sangwon_birthday" />
       <item itemvalue="Python.5247_yonsan" />
-      <item itemvalue="Python.5248_div_group" />
-      <item itemvalue="Python.5249_MST" />
+      <item itemvalue="Python.1244_maximum_reward" />
+      <item itemvalue="Python.7465_changyong_vilage" />
+      <item itemvalue="Python.1861_squ_room" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.1861_squ_room" />
+        <item itemvalue="Python.7465_changyong_vilage" />
+        <item itemvalue="Python.1244_maximum_reward" />
         <item itemvalue="Python.9663_NQueen" />
         <item itemvalue="Python.5247_yonsan" />
-        <item itemvalue="Python.5249_MST" />
-        <item itemvalue="Python.5248_div_group" />
-        <item itemvalue="Python.5521_sangwon_birthday" />
       </list>
     </recent_temporary>
   </component>
@@ -200,18 +354,50 @@
     </task>
     <servers />
   </component>
+  <component name="ToolWindowManager">
+    <frame x="667" y="0" width="1211" height="1047" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19693094" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Python Console" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.23135965" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3256579" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
             <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
               <option name="COLUMN_ORDER" />
             </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -558,7 +744,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/s2s3_ad_study/9663_NQueen.py</url>
-          <line>72</line>
+          <line>73</line>
           <option name="timeStamp" value="223" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -598,18 +784,43 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/algo_19_sep_4th/5247_yonsan.py</url>
-          <line>20</line>
+          <line>23</line>
           <option name="timeStamp" value="239" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/algo_19_sep_4th/5247_yonsan.py</url>
-          <line>26</line>
+          <line>29</line>
           <option name="timeStamp" value="240" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/s2s3_ad_study/9663_NQueen.py</url>
           <line>27</line>
           <option name="timeStamp" value="241" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algo_19_sep_4th/1244_maximum_reward.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="242" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algo_19_sep_4th/1244_maximum_reward.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="243" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algo_19_sep_4th/1244_maximum_reward.py</url>
+          <line>54</line>
+          <option name="timeStamp" value="244" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algo_19_sep_4th/1861_squ_room.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="245" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algo_19_sep_4th/1861_squ_room.py</url>
+          <line>43</line>
+          <option name="timeStamp" value="246" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -623,10 +834,136 @@
     <watches-manager>
       <configuration name="PythonConfigurationType">
         <watch expression="base" language="Python" />
-        <watch expression="cnt" language="Python" />
-        <watch expression="visited" language="Python" />
-        <watch expression="mini" language="Python" />
+        <watch expression="b" language="Python" />
+        <watch expression="maximoney" language="Python" />
+        <watch expression="remember" language="Python" />
+        <watch expression="cntcnt" language="Python" />
       </configuration>
     </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>maximoney</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>cntcnt</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>print()</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>remember</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>b</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/algo_19_sep_4th/5249_MST.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algo_19_sep_4th/1244_maximum_reward.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="3" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+            <marker date="1569376652165" expanded="true" signature="112:236" ph="..." />
+            <marker date="1569376652165" expanded="true" signature="406:1080" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algo_19_sep_4th/7465_changyong_vilage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algo_19_sep_4th/squ_room.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="10" lean-forward="true" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algo_19_sep_4th/1861_squ_room.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+            <marker date="1569384265994" expanded="true" signature="124:680" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/s2s3_ad_study/9663_NQueen.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/s2s3_ad_study/15650_N&amp;M2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_prac.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algo_19_sep_4th/yongvilage.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algo_19_sep_4th/reward.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="6" selection-start-line="10" selection-end-line="10" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/s2s3_ad_study/15649_N&amp;M.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="12" lean-forward="true" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apl/prac.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2555" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algo_19_sep_3rd/prac.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="28" lean-forward="true" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
