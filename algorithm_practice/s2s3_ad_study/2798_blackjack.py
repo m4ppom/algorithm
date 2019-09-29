@@ -19,7 +19,7 @@ def finding_max(idx):
 
 card_number_N, M = map(int, input().split())
 card_list = list(map(int, input().split()))
-card_list.sort(reverse = True)
+# card_list.sort(reverse = True)
 maximum_sum = 0
 card_sum = 0
 result = 0
