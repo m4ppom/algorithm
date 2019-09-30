@@ -1,3 +1,7 @@
+import sys
+sys.stdin = open('test3.txt', 'r')
+
+
 import itertools
 import collections
 

@@ -1,3 +1,7 @@
+import sys
+sys.stdin = open('test2.txt', 'r')
+
+
 import collections
 
 

@@ -1,3 +1,7 @@
+import sys
+sys.stdin = open('test1.txt', 'r')
+
+
 def pathfinder(i, j, h):
     global mini, mini_height, mini_list
     summ = 0

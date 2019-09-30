@@ -1,3 +1,7 @@
+import sys
+sys.stdin = open('test2.txt', 'r')
+
+
 def dfs(i, j):
     global cnt, mini_cnt
     cnt += 1
