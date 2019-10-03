@@ -8,16 +8,29 @@ for i in range(1, N+1):
     q.append(i)
 idx = 0
 ans = collections.deque()
+cnt = 0
 while q:
-    idx += M - 1
-    while idx >= len(q):
-        idx -= len(q)-1
-    print(idx)
-    if idx >= len(q):
-        idx -= len(q)
+    idx += 1
+    cnt += 1
+    if len(q) == 1:
+        a = q.pop()
+        ans.append(a)
+        break
+    if idx == len(q):
+        idx = 0
+    elif idx == len(q)+1:
+        idx = 1
+    if cnt == M-1:
         a = q.pop(idx)
         ans.append(a)
+        cnt = 0
+    # idx += M-1
+    # if idx >= len(q):
+    #     idx -= len(q)-1
+print('<', end='')
+for f in range(N):
+    if f == N-1:
+        print('%d' % ans[f], end='')
     else:
-        a = q.pop(idx)
-        ans.append(a)
-print(ans)
+        print('%d' % ans[f], end=', ')
+print('>')

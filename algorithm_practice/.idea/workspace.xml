@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7543d34c-9b95-4aa1-b217-e8fe4893aad8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/s2s3_ad_study/q_stack_study/11866_joesepers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/s2s3_ad_study/q_stack_study/2164_card2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/s2s3_ad_study/q_stack_study/card2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/s2s3_ad_study/q_stack_study/jose.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ad_gichul/12100_2048prob.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ad_gichul/2048.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/s2s3_ad_study/q_stack_study/1966_printer_q.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/s2s3_ad_study/q_stack_study/printer_q.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/s2s3_ad_study/greedy_study/1931_meetingroom.py" beforeDir="false" afterPath="$PROJECT_DIR$/s2s3_ad_study/greedy_study/1931_meetingroom.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/s2s3_ad_study/q_stack_study/11866_joesepers.py" beforeDir="false" afterPath="$PROJECT_DIR$/s2s3_ad_study/q_stack_study/11866_joesepers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/s2s3_ad_study/q_stack_study/jose.txt" beforeDir="false" afterPath="$PROJECT_DIR$/s2s3_ad_study/q_stack_study/jose.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,11 +31,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="339" />
-    <option name="width" value="1588" />
-    <option name="height" value="1047" />
-  </component>
   <component name="ProjectId" id="1Qit9fE9QwWS8MIgarYAmflS1Cc" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -55,28 +51,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.11866_joesepers">
-    <configuration name="11047_coin0" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="20190812" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/s2s3_ad_study/greedy_study" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/s2s3_ad_study/greedy_study/11047_coin0.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.1966_printer_q">
     <configuration name="11866_joesepers" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="20190812" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -111,6 +86,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/s2s3_ad_study/greedy_study/1931_meetingroom.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="1966_printer_q" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="20190812" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/s2s3_ad_study/q_stack_study" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/s2s3_ad_study/q_stack_study/1966_printer_q.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -162,19 +158,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.11047_coin0" />
       <item itemvalue="Python.1931_meetingroom" />
       <item itemvalue="Python.7568_dungG" />
       <item itemvalue="Python.2164_card2" />
       <item itemvalue="Python.11866_joesepers" />
+      <item itemvalue="Python.1966_printer_q" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.1966_printer_q" />
         <item itemvalue="Python.11866_joesepers" />
         <item itemvalue="Python.2164_card2" />
         <item itemvalue="Python.1931_meetingroom" />
         <item itemvalue="Python.7568_dungG" />
-        <item itemvalue="Python.11047_coin0" />
       </list>
     </recent_temporary>
   </component>
@@ -744,8 +740,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/s2s3_ad_study/q_stack_study/11866_joesepers.py</url>
-          <line>10</line>
+          <line>11</line>
           <option name="timeStamp" value="293" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/s2s3_ad_study/q_stack_study/1966_printer_q.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="296" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
