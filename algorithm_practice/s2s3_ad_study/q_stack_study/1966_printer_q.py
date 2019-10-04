@@ -9,7 +9,7 @@ for test_num in range(1 , testcase+1):
     q = [0]
     for i in range(1, N+1):
         visited.append(i)
-    q = collections.deque()
+    # q = collections.deque()
     for j in list(map(int, input().split())):
         q.append(j)
     cnt = 1
@@ -19,9 +19,10 @@ for test_num in range(1 , testcase+1):
             if number > q[a]:
                 visited.append(a)
                 break
-        if a == M + 1:
-            print(cnt)
-            break
         else:
-            cnt += 1
-            q[a] = 0
+            if a == M + 1:
+                print(cnt)
+                break
+            else:
+                cnt += 1
+                q[a] = 0
