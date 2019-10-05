@@ -1,48 +1,43 @@
 import sys
 sys.stdin = open('ac.txt', 'r')
 
-
-def R(aaaaa):
-    aaaaa = aaaaa[::-1]
-    return aaaaa
-
-
-def D(numnum):
-    global result
-    if numnum == []:
-        result = 'error'
-        return
-    numnum.pop(0)
-    return
-
+from collections import deque
 testcase = int(input())
 for test_num in range(1, testcase+1):
-    func = list(map(str, input()))
+    func = deque(map(str, input()))
     N = int(input())
-    lst = list(map(str, input()))
-    numnum = []
-    b = ''
-    result = 1
-    while lst:
-        a = lst.pop(0)
-        if a == '[' or a == ']':
-            continue
-        elif a == ',':
-            b = int(b)
-            numnum.append(b)
-            b = ''
-        else:
-            b += a
-    if b != '':
-        b = int(b)
-        numnum.append(b)
+    if N == 0:
+        input()
+        lst = []
+    else:
+        lst = list(map(int, input()[1:-1].split((','))))
         b = ''
+    result = 1
+    rev = 0
     for i in func:
         if i == 'R':
-            numnum = R(numnum)
+            if rev == 0:
+                rev = 1
+            else:
+                rev = 0
         elif i == 'D':
-            D(numnum)
-    if result == 'error':
-        print(result)
-    else:
-        print(numnum)
+            if lst == []:
+                result = 0
+                print('error')
+                break
+            elif rev == 1:
+                lst.pop(-1)
+            elif rev == 0:
+                lst.pop(0)
+    if result == 1:
+        if lst == []:
+            print('[]')
+        else:
+            if rev == 1:
+                lst = lst[::-1]
+            print('[', end='')
+            for i in range(len(lst)):
+                print(lst[i],end='')
+                if i != len(lst)-1:
+                    print(',',end='')
+            print(']')

@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7543d34c-9b95-4aa1-b217-e8fe4893aad8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/s2s3_ad_study/q_stack_study/5430_AC.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/s2s3_ad_study/q_stack_study/ac.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/s2s3_ad_study/q_stack_study/1021_rotatingQ.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/s2s3_ad_study/q_stack_study/1874_stack_waterthermal.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/s2s3_ad_study/q_stack_study/wathe.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/s2s3_ad_study/q_stack_study/1966_printer_q.py" beforeDir="false" afterPath="$PROJECT_DIR$/s2s3_ad_study/q_stack_study/1966_printer_q.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/s2s3_ad_study/q_stack_study/printer_q.txt" beforeDir="false" afterPath="$PROJECT_DIR$/s2s3_ad_study/q_stack_study/printer_q.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/s2s3_ad_study/q_stack_study/11866_joesepers.py" beforeDir="false" afterPath="$PROJECT_DIR$/s2s3_ad_study/q_stack_study/11866_joesepers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/s2s3_ad_study/q_stack_study/5430_AC.py" beforeDir="false" afterPath="$PROJECT_DIR$/s2s3_ad_study/q_stack_study/5430_AC.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/s2s3_ad_study/q_stack_study/jose.txt" beforeDir="false" afterPath="$PROJECT_DIR$/s2s3_ad_study/q_stack_study/jose.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,7 +51,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.5430_AC">
+  <component name="RunManager" selected="Python.11866_joesepers">
     <configuration name="11866_joesepers" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="20190812" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -71,7 +73,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="1931_meetingroom" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="1874_stack_waterthermal" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="20190812" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -79,11 +81,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/s2s3_ad_study/greedy_study" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/s2s3_ad_study/q_stack_study" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/s2s3_ad_study/greedy_study/1931_meetingroom.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/s2s3_ad_study/q_stack_study/1874_stack_waterthermal.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -156,19 +158,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.1931_meetingroom" />
       <item itemvalue="Python.2164_card2" />
       <item itemvalue="Python.11866_joesepers" />
       <item itemvalue="Python.1966_printer_q" />
       <item itemvalue="Python.5430_AC" />
+      <item itemvalue="Python.1874_stack_waterthermal" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.5430_AC" />
         <item itemvalue="Python.11866_joesepers" />
+        <item itemvalue="Python.1874_stack_waterthermal" />
+        <item itemvalue="Python.5430_AC" />
         <item itemvalue="Python.1966_printer_q" />
         <item itemvalue="Python.2164_card2" />
-        <item itemvalue="Python.1931_meetingroom" />
       </list>
     </recent_temporary>
   </component>
@@ -748,8 +750,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/s2s3_ad_study/q_stack_study/5430_AC.py</url>
-          <line>39</line>
+          <line>16</line>
           <option name="timeStamp" value="298" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/s2s3_ad_study/q_stack_study/5430_AC.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="299" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/s2s3_ad_study/q_stack_study/1874_stack_waterthermal.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="300" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
