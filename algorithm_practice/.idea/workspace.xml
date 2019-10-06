@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7543d34c-9b95-4aa1-b217-e8fe4893aad8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ad_gichul/17472_making_bridge.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ad_gichul/bridge2.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/s2s3_ad_study/q_stack_study/1021_rotatingQ.py" beforeDir="false" afterPath="$PROJECT_DIR$/s2s3_ad_study/q_stack_study/1021_rotatingQ.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/s2s3_ad_study/q_stack_study/thinq.txt" beforeDir="false" afterPath="$PROJECT_DIR$/s2s3_ad_study/q_stack_study/thinq.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad_gichul/17472_making_bridge.py" beforeDir="false" afterPath="$PROJECT_DIR$/ad_gichul/17472_making_bridge.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad_gichul/bridge2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ad_gichul/bridge2.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -768,18 +766,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/ad_gichul/17472_making_bridge.py</url>
-          <line>4</line>
-          <option name="timeStamp" value="307" />
+          <line>116</line>
+          <option name="timeStamp" value="313" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/ad_gichul/17472_making_bridge.py</url>
-          <line>18</line>
-          <option name="timeStamp" value="308" />
+          <line>111</line>
+          <option name="timeStamp" value="314" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/ad_gichul/17472_making_bridge.py</url>
-          <line>53</line>
-          <option name="timeStamp" value="309" />
+          <line>43</line>
+          <option name="timeStamp" value="315" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -796,6 +794,8 @@
         <watch expression="count" language="Python" />
         <watch expression="base_copy" language="Python" />
         <watch expression="bridge_info" language="Python" />
+        <watch expression="num" language="Python" />
+        <watch expression="lolo" language="Python" />
       </configuration>
     </watches-manager>
   </component>
