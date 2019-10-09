@@ -42,32 +42,67 @@ def making_bridge(iiii, jjjj):
 
 
 def correct(lst):
-    global num
-    li = deepcopy(lst)
-    vivi = [0]*len(lst)
-    visited = [0]*num
-    visited[lst[0][0]] = 1
-    visited[lst[0][1]] = 1
-    vivi[0] = 1
-    long = []
-    long.append(lst[0][0])
-    long.append(lst[0][1])
+    global num, cucucucu, corrr
     for gg in range(len(li)):
-        if li[gg][0] == long[0]:  # or li[gg][0] == long[1]:
-            long.append(0, li[gg[0]])
-        elif li[gg][0] == long[1]:
-            long.append(-1, li[gg[0]])
-        if li[gg][1] == long[0]:  # or li[gg][0] == long[1]:
-            long.append(0, li[gg[1]])
-        elif li[gg][1] == long[1]:
-            long.append(-1, li[gg[1]])
+        if vivi[gg] == 0:
+            # visited[lolo[gg][0]] = 1
+            # visited[lolo[gg][1]] = 1
+            vivi[gg] = 1
+            if li[gg][0] == long[0]:
+                # long.appendleft(li[gg][0])
+                long.appendleft(li[gg][1])
+                cucucucu += 1
+                if cucucucu == num -2:
+                    corrr = num-2
+                    return
+                else:
+                    correct(long)
+                cucucucu -= 1
+                # long.popleft()
+                long.popleft()
+            elif li[gg][0] == long[1]:
+                # long.append(li[gg][0])
+                long.append(li[gg][1])
+                cucucucu += 1
+                if cucucucu == num - 2:
+                    corrr = num - 2
+                    return
+                else:
+                    correct(lolo)
+                cucucucu -= 1
+                # long.pop()
+                long.pop()
+            elif li[gg][1] == long[0]:  # or li[gg][0] == long[1]:
+                long.appendleft(li[gg][1])
+                # long.appendleft(li[gg][0])
+                cucucucu += 1
+                if cucucucu == num - 2:
+                    corrr = num - 2
+                    return
+                else:
+                    correct(long)
+                cucucucu -= 1
+                long.popleft()
+                # long.popleft()
+            elif li[gg][1] == long[1]:
+                long.append(li[gg][1])
+                # long.append(li[gg][0])
+                cucucucu += 1
+                if cucucucu == num - 2:
+                    corrr = num - 2
+                    return
+                else:
+                    correct(long)
+                cucucucu -= 1
+                long.pop()
+                # long.pop()
+            vivi[gg] = 1
+            correct(long)
 
 
+def route_finder():
 
-    if sum(visited) == num-1:
-        return num-1
-    else:
-        return False
+    return
 
 
 dy = [-1, 1, 0, 0]
@@ -109,11 +144,23 @@ for i in range(len(nnn)):
         tt,kk = nnn[i][kkk]
         lolo.append([tt, kk])
     # print(lolo)
+
+    li = deepcopy(lolo)
+    vivi = [0] * len(lolo)
+    visited = [0] * num
+    visited[lolo[0][0]] = 1
+    visited[lolo[0][1]] = 1
+    vivi[0] = 1
+    cucucucu = 1
+    long = deque()
+    long.append(lolo[0][0])
+    long.append(lolo[0][1])
+    corrr = False
     info = correct(lolo)
     lolo = []
-    if info == False:
+    if corrr == False:
         continue
-    elif info == num-1:
+    elif corrr == num-3:
         for j in range(num-2):
             x, y = nnn[i][j]
             if bridge_info[x][y] == 100:
