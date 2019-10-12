@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7543d34c-9b95-4aa1-b217-e8fe4893aad8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/s2s3_ad_study/conq/2630_color_ring_two.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/s2s3_ad_study/conq/colorpap.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/s2s3_ad_study/q_stack_study/2630_color_ring_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/s2s3_ad_study/q_stack_study/colorpap.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ad_gichul/17472_making_bridge.py" beforeDir="false" afterPath="$PROJECT_DIR$/ad_gichul/17472_making_bridge.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
