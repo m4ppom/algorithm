@@ -1,8 +1,8 @@
 import sys
 sys.stdin = open('organic.txt', 'r')
 
-sys.setrecursionlimit(10000)
-def dfs(aa, bb):
+sys.setrecursionlimit(10000)  # 재귀 depth 초과하는거 뚫어줌
+def dfs(aa, bb):  # 들어가면서 해당 칸 값을 0으로 바꿔주고 다음칸 찾아보면서 이동
     global garo, sero
     base[aa][bb] = 0
     for dir in range(4):
@@ -22,10 +22,10 @@ for test_num in range(testcase):
     for _ in range(baechu):
         a, b = map(int, input().split())
         base[b][a] = 1
-    count = 0
+    count = 0  # 벌레 수 
     for i in range(sero):
         for j in range(garo):
             if base[i][j] == 1:
-                count += 1
+                count += 1  # 새로운 배추지역 찾을 때 마다 벌레수 한마리씩 증가시킴
                 dfs(i, j)
     print(count)

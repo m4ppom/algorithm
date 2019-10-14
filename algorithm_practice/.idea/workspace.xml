@@ -2,8 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7543d34c-9b95-4aa1-b217-e8fe4893aad8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/s2s3_ad_study/dfsbfs/organic.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/s2s3_ad_study/dfsbfs/1260_dfs_wa_bfs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/s2s3_ad_study/dfsbfs/2178_miro.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/s2s3_ad_study/dfsbfs/2606_virus.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/s2s3_ad_study/dfsbfs/2667_danG.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/s2s3_ad_study/dfsbfs/7576_tomato.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/s2s3_ad_study/dfsbfs/danG.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/s2s3_ad_study/dfsbfs/dfs_wa_bfs.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/s2s3_ad_study/dfsbfs/miro.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/s2s3_ad_study/dfsbfs/tomato1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/s2s3_ad_study/dfsbfs/virus.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/20190812.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/20190812.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backtest/test1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/backtest/test1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backtest/test2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/backtest/test2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backtest/test3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/backtest/test3.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/s2s3_ad_study/dfsbfs/1012_organic_bae_chu.py" beforeDir="false" afterPath="$PROJECT_DIR$/s2s3_ad_study/dfsbfs/1012_organic_bae_chu.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -11,6 +25,70 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1391620595">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="6" />
+          <entry key="txt" value="8" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="PLAIN_TEXT" value="8" />
+          <entry key="Python" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="2977" />
+          <entry key="txt" value="42" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="42" />
+          <entry key="Python" value="2977" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <splitter split-orientation="horizontal" split-proportion="0.71458775">
+      <split-first>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/s2s3_ad_study/dfsbfs/7576_tomato.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state>
+                  <caret column="7" selection-start-column="7" selection-end-column="7" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/s2s3_ad_study/dfsbfs/tomato1.txt">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="114">
+                  <caret line="6" selection-start-line="6" selection-end-line="6" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -27,9 +105,61 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/s2s3_ad_study/dfsbfs/1012_organic_bae_chu.py" />
+        <option value="$PROJECT_DIR$/s2s3_ad_study/dfsbfs/dfs_wa_bfs.txt" />
+        <option value="$PROJECT_DIR$/s2s3_ad_study/dfsbfs/1260_dfs_wa_bfs.py" />
+        <option value="$PROJECT_DIR$/s2s3_ad_study/dfsbfs/virus.txt" />
+        <option value="$PROJECT_DIR$/s2s3_ad_study/dfsbfs/2606_virus.py" />
+        <option value="$PROJECT_DIR$/s2s3_ad_study/dfsbfs/danG.txt" />
+        <option value="$PROJECT_DIR$/s2s3_ad_study/dfsbfs/2667_danG.py" />
+        <option value="$PROJECT_DIR$/s2s3_ad_study/dfsbfs/2178_miro.py" />
+        <option value="$PROJECT_DIR$/s2s3_ad_study/dfsbfs/miro.txt" />
+        <option value="$PROJECT_DIR$/s2s3_ad_study/dfsbfs/tomato1.txt" />
+        <option value="$PROJECT_DIR$/s2s3_ad_study/dfsbfs/7576_tomato.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="681" />
+    <option name="width" value="1245" />
+    <option name="height" value="1047" />
+  </component>
   <component name="ProjectId" id="1Qit9fE9QwWS8MIgarYAmflS1Cc" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="algorithm_practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithm_practice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithm_practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithm_practice" type="462c0819:PsiDirectoryNode" />
+              <item name="s2s3_ad_study" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithm_practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithm_practice" type="462c0819:PsiDirectoryNode" />
+              <item name="s2s3_ad_study" type="462c0819:PsiDirectoryNode" />
+              <item name="dfsbfs" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -52,7 +182,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.1012_organic_bae_chu">
+  <component name="RunManager" selected="Python.2178_miro">
     <configuration name="1012_organic_bae_chu" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="20190812" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -74,7 +204,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="17472_making_bridge" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="1260_dfs_wa_bfs" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="20190812" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -82,11 +212,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ad_gichul" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/s2s3_ad_study/dfsbfs" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ad_gichul/17472_making_bridge.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/s2s3_ad_study/dfsbfs/1260_dfs_wa_bfs.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -95,7 +225,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="1966_printer_q" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="2178_miro" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="20190812" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -103,11 +233,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/s2s3_ad_study/q_stack_study" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/s2s3_ad_study/dfsbfs" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/s2s3_ad_study/q_stack_study/1966_printer_q.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/s2s3_ad_study/dfsbfs/2178_miro.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -116,7 +246,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="2630_color_ring_2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="2606_virus" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="20190812" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -124,11 +254,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/s2s3_ad_study" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/s2s3_ad_study/dfsbfs" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/s2s3_ad_study/q_stack_study/2630_color_ring_2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/s2s3_ad_study/dfsbfs/2606_virus.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -137,7 +267,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="2630_color_ring_two" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="2667_danG" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="20190812" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -145,11 +275,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/s2s3_ad_study/conq" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/s2s3_ad_study/dfsbfs" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/s2s3_ad_study/conq/2630_color_ring_two.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/s2s3_ad_study/dfsbfs/2667_danG.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -159,19 +289,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.17472_making_bridge" />
-      <item itemvalue="Python.1966_printer_q" />
-      <item itemvalue="Python.2630_color_ring_2" />
-      <item itemvalue="Python.2630_color_ring_two" />
       <item itemvalue="Python.1012_organic_bae_chu" />
+      <item itemvalue="Python.1260_dfs_wa_bfs" />
+      <item itemvalue="Python.2606_virus" />
+      <item itemvalue="Python.2667_danG" />
+      <item itemvalue="Python.2178_miro" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.2178_miro" />
+        <item itemvalue="Python.2667_danG" />
+        <item itemvalue="Python.2606_virus" />
+        <item itemvalue="Python.1260_dfs_wa_bfs" />
         <item itemvalue="Python.1012_organic_bae_chu" />
-        <item itemvalue="Python.2630_color_ring_two" />
-        <item itemvalue="Python.2630_color_ring_2" />
-        <item itemvalue="Python.1966_printer_q" />
-        <item itemvalue="Python.17472_making_bridge" />
       </list>
     </recent_temporary>
   </component>
@@ -198,18 +328,50 @@
     </task>
     <servers />
   </component>
+  <component name="ToolWindowManager">
+    <frame x="681" y="0" width="1245" height="1047" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2162386" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Python Console" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32894737" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991228" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
             <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
               <option name="COLUMN_ORDER" />
             </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -784,6 +946,31 @@
           <line>43</line>
           <option name="timeStamp" value="315" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/s2s3_ad_study/dfsbfs/1260_dfs_wa_bfs.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="318" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/s2s3_ad_study/dfsbfs/1260_dfs_wa_bfs.py</url>
+          <line>44</line>
+          <option name="timeStamp" value="319" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/s2s3_ad_study/dfsbfs/2667_danG.py</url>
+          <line>34</line>
+          <option name="timeStamp" value="323" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/s2s3_ad_study/dfsbfs/2178_miro.py</url>
+          <line>54</line>
+          <option name="timeStamp" value="324" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/s2s3_ad_study/dfsbfs/2178_miro.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="325" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -798,13 +985,110 @@
         <watch expression="q" language="Python" />
         <watch expression="count" language="Python" />
         <watch expression="base_copy" language="Python" />
-        <watch expression="bridge_info" language="Python" />
         <watch expression="num" language="Python" />
-        <watch expression="lolo" language="Python" />
-        <watch expression="vivi" language="Python" />
         <watch expression="cucucucu" language="Python" />
-        <watch expression="long" language="Python" />
+        <watch expression="visitid_bfs" language="Python" />
       </configuration>
     </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>visitid_bfs</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>visitid_dfs</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/s2s3_ad_study/dfsbfs/1012_organic_bae_chu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="28" column="60" selection-start-line="28" selection-start-column="60" selection-end-line="28" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/s2s3_ad_study/dfsbfs/virus.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/s2s3_ad_study/dfsbfs/2606_virus.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" selection-start-line="4" selection-end-line="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/s2s3_ad_study/dfsbfs/1260_dfs_wa_bfs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="836">
+          <caret line="44" column="13" lean-forward="true" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
+          <folding>
+            <marker date="1571035921691" expanded="true" signature="414:674" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/s2s3_ad_study/dfsbfs/dfs_wa_bfs.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/s2s3_ad_study/dfsbfs/danG.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/s2s3_ad_study/dfsbfs/2667_danG.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="37" lean-forward="true" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
+          <folding>
+            <marker date="1571046698985" expanded="true" signature="120:304" ph="..." />
+            <marker date="1571046698985" expanded="true" signature="120:342" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/s2s3_ad_study/dfsbfs/miro.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/s2s3_ad_study/dfsbfs/2178_miro.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+          <folding>
+            <marker date="1571048447110" expanded="true" signature="112:542" ph="..." />
+            <marker date="1571048447110" expanded="true" signature="996:1038" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/s2s3_ad_study/dfsbfs/tomato1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/s2s3_ad_study/dfsbfs/7576_tomato.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="7" selection-start-column="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
