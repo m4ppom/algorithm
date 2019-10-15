@@ -2,23 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7543d34c-9b95-4aa1-b217-e8fe4893aad8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/s2s3_ad_study/dfsbfs/1260_dfs_wa_bfs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/s2s3_ad_study/dfsbfs/2178_miro.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/s2s3_ad_study/dfsbfs/2606_virus.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/s2s3_ad_study/dfsbfs/2667_danG.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/s2s3_ad_study/dfsbfs/7576_tomato.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/s2s3_ad_study/dfsbfs/danG.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/s2s3_ad_study/dfsbfs/dfs_wa_bfs.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/s2s3_ad_study/dfsbfs/miro.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/s2s3_ad_study/dfsbfs/tomato1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/s2s3_ad_study/dfsbfs/virus.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/20190812.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/20190812.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backtest/test1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/backtest/test1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backtest/test2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/backtest/test2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backtest/test3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/backtest/test3.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/s2s3_ad_study/dfsbfs/1012_organic_bae_chu.py" beforeDir="false" afterPath="$PROJECT_DIR$/s2s3_ad_study/dfsbfs/1012_organic_bae_chu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad_gichul/17472_making_bridge.py" beforeDir="false" afterPath="$PROJECT_DIR$/ad_gichul/17472_making_bridge.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/s2s3_ad_study/dfsbfs/7576_tomato.py" beforeDir="false" afterPath="$PROJECT_DIR$/s2s3_ad_study/dfsbfs/7576_tomato.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,45 +16,46 @@
     <session id="1391620595">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.2" value="2" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="6" />
-          <entry key="txt" value="8" />
+          <entry key="py" value="9" />
+          <entry key="txt" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="8" />
-          <entry key="Python" value="6" />
+          <entry key="PLAIN_TEXT" value="10" />
+          <entry key="Python" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="2977" />
+          <entry key="py" value="2994" />
           <entry key="txt" value="42" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="42" />
-          <entry key="Python" value="2977" />
+          <entry key="Python" value="2994" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.71458775">
+    <splitter split-orientation="horizontal" split-proportion="0.6976744">
       <split-first>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/s2s3_ad_study/dfsbfs/7576_tomato.py">
+            <entry file="file://$PROJECT_DIR$/ad_gichul/17472_making_bridge.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state>
-                  <caret column="7" selection-start-column="7" selection-end-column="7" />
+                <state relative-caret-position="333">
+                  <caret line="75" column="23" lean-forward="true" selection-start-line="75" selection-start-column="23" selection-end-line="75" selection-end-column="23" />
                 </state>
               </provider>
             </entry>
@@ -78,10 +65,10 @@
       <split-second>
         <leaf>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/s2s3_ad_study/dfsbfs/tomato1.txt">
+            <entry file="file://$PROJECT_DIR$/ad_gichul/bridge2.txt">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="114">
-                  <caret line="6" selection-start-line="6" selection-end-line="6" />
+                <state relative-caret-position="399">
+                  <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
                 </state>
               </provider>
             </entry>
@@ -119,12 +106,13 @@
         <option value="$PROJECT_DIR$/s2s3_ad_study/dfsbfs/miro.txt" />
         <option value="$PROJECT_DIR$/s2s3_ad_study/dfsbfs/tomato1.txt" />
         <option value="$PROJECT_DIR$/s2s3_ad_study/dfsbfs/7576_tomato.py" />
+        <option value="$PROJECT_DIR$/ad_gichul/17472_making_bridge.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="681" />
-    <option name="width" value="1245" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="47" />
+    <option name="width" value="1879" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectId" id="1Qit9fE9QwWS8MIgarYAmflS1Cc" />
@@ -136,12 +124,18 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="algorithm_practice" type="b2602c69:ProjectViewProjectNode" />
               <item name="algorithm_practice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithm_practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithm_practice" type="462c0819:PsiDirectoryNode" />
+              <item name="ad_gichul" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="algorithm_practice" type="b2602c69:ProjectViewProjectNode" />
@@ -158,7 +152,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -182,28 +175,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.2178_miro">
-    <configuration name="1012_organic_bae_chu" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="20190812" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/s2s3_ad_study/dfsbfs" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/s2s3_ad_study/dfsbfs/1012_organic_bae_chu.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.17472_making_bridge">
     <configuration name="1260_dfs_wa_bfs" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="20190812" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -217,6 +189,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/s2s3_ad_study/dfsbfs/1260_dfs_wa_bfs.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="17472_making_bridge" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="20190812" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ad_gichul" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ad_gichul/17472_making_bridge.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -289,19 +282,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.1012_organic_bae_chu" />
       <item itemvalue="Python.1260_dfs_wa_bfs" />
       <item itemvalue="Python.2606_virus" />
       <item itemvalue="Python.2667_danG" />
       <item itemvalue="Python.2178_miro" />
+      <item itemvalue="Python.17472_making_bridge" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.17472_making_bridge" />
         <item itemvalue="Python.2178_miro" />
         <item itemvalue="Python.2667_danG" />
         <item itemvalue="Python.2606_virus" />
         <item itemvalue="Python.1260_dfs_wa_bfs" />
-        <item itemvalue="Python.1012_organic_bae_chu" />
       </list>
     </recent_temporary>
   </component>
@@ -329,23 +322,23 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="681" y="0" width="1245" height="1047" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2162386" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.06322445" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32894737" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991228" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3257329" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3984799" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -933,16 +926,6 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/ad_gichul/17472_making_bridge.py</url>
-          <line>163</line>
-          <option name="timeStamp" value="313" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/ad_gichul/17472_making_bridge.py</url>
-          <line>158</line>
-          <option name="timeStamp" value="314" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/ad_gichul/17472_making_bridge.py</url>
           <line>43</line>
           <option name="timeStamp" value="315" />
         </line-breakpoint>
@@ -970,6 +953,11 @@
           <url>file://$PROJECT_DIR$/s2s3_ad_study/dfsbfs/2178_miro.py</url>
           <line>6</line>
           <option name="timeStamp" value="325" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ad_gichul/17472_making_bridge.py</url>
+          <line>90</line>
+          <option name="timeStamp" value="326" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -1076,6 +1064,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/s2s3_ad_study/dfsbfs/7576_tomato.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6" selection-start-column="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/s2s3_ad_study/dfsbfs/tomato1.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -1083,10 +1078,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/s2s3_ad_study/dfsbfs/7576_tomato.py">
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="7" selection-start-column="7" selection-end-column="7" />
+        <state relative-caret-position="889">
+          <caret line="1663" column="4" selection-start-line="1663" selection-start-column="4" selection-end-line="1663" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ad_gichul/17472_making_bridge.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="75" column="23" lean-forward="true" selection-start-line="75" selection-start-column="23" selection-end-line="75" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ad_gichul/bridge2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
         </state>
       </provider>
     </entry>

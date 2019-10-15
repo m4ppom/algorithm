@@ -2,7 +2,7 @@ import sys
 sys.stdin = open('bridge2.txt', 'r')
 from copy import deepcopy
 import itertools
-from collections import deque
+
 def bfs(iii, jjj, num):
     q = []
     q.append((iii, jjj))
@@ -41,70 +41,6 @@ def making_bridge(iiii, jjjj):
                     break
 
 
-def correct(lst):
-    global num, cucucucu, corrr
-    for gg in range(len(li)):
-        if vivi[gg] == 0:
-            # visited[lolo[gg][0]] = 1
-            # visited[lolo[gg][1]] = 1
-            vivi[gg] = 1
-            if li[gg][0] == long[0]:
-                # long.appendleft(li[gg][0])
-                long.appendleft(li[gg][1])
-                cucucucu += 1
-                if cucucucu == num -2:
-                    corrr = num-2
-                    return
-                else:
-                    correct(long)
-                cucucucu -= 1
-                # long.popleft()
-                long.popleft()
-            elif li[gg][0] == long[1]:
-                # long.append(li[gg][0])
-                long.append(li[gg][1])
-                cucucucu += 1
-                if cucucucu == num - 2:
-                    corrr = num - 2
-                    return
-                else:
-                    correct(lolo)
-                cucucucu -= 1
-                # long.pop()
-                long.pop()
-            elif li[gg][1] == long[0]:  # or li[gg][0] == long[1]:
-                long.appendleft(li[gg][1])
-                # long.appendleft(li[gg][0])
-                cucucucu += 1
-                if cucucucu == num - 2:
-                    corrr = num - 2
-                    return
-                else:
-                    correct(long)
-                cucucucu -= 1
-                long.popleft()
-                # long.popleft()
-            elif li[gg][1] == long[1]:
-                long.append(li[gg][1])
-                # long.append(li[gg][0])
-                cucucucu += 1
-                if cucucucu == num - 2:
-                    corrr = num - 2
-                    return
-                else:
-                    correct(long)
-                cucucucu -= 1
-                long.pop()
-                # long.pop()
-            vivi[gg] = 1
-            correct(long)
-
-
-def route_finder():
-
-    return
-
-
 dy = [-1, 1, 0, 0]
 dx = [0, 0, -1, 1]
 N, M = map(int, input().split())
@@ -115,7 +51,7 @@ base_copy = [[0]*M for _ in range(N)]
 for ii in range(N):
     for jj in range(M):
         if base[ii][jj] == 1 and base_copy[ii][jj] == 0:
-            bfs(ii,jj,num)
+            bfs(ii, jj, num)
             num += 1
 bridge_info = [[100]*(num+1) for _ in range(num+1)]
 for iiii in range(N):
@@ -124,43 +60,22 @@ for iiii in range(N):
             making_bridge(iiii, jjjj)
 # print(bridge_info)
 mmm = list(itertools.combinations(range(1,num), 2))
-# print(mmm)
+print(mmm)
 nnn = list(itertools.combinations(mmm, num-2))
-# print(nnn)
+print(nnn)
 ssss = 0
 mmmiiinniii = 9999
 info = []
 mnmn = []
-lolo = []
 for i in range(len(nnn)):
     cbt = 0
     ssss = 0
-    # for kkk in range(len(set(nnn[i]))):
-    #     tt,kk = nnn[i][kkk]
-    #     info.append(tt)
-    #     info.append(kk)
-    # info = len(set(info))
     for kkk in range(len(set(nnn[i]))):
         tt,kk = nnn[i][kkk]
-        lolo.append([tt, kk])
-    # print(lolo)
-
-    li = deepcopy(lolo)
-    vivi = [0] * len(lolo)
-    visited = [0] * num
-    visited[lolo[0][0]] = 1
-    visited[lolo[0][1]] = 1
-    vivi[0] = 1
-    cucucucu = 1
-    long = deque()
-    long.append(lolo[0][0])
-    long.append(lolo[0][1])
-    corrr = False
-    info = correct(lolo)
-    lolo = []
-    if corrr == False:
-        continue
-    elif corrr == num-3:
+        info.append(tt)
+        info.append(kk)
+    info = len(set(info))
+    if info == num-1:
         for j in range(num-2):
             x, y = nnn[i][j]
             if bridge_info[x][y] == 100:
@@ -173,7 +88,6 @@ for i in range(len(nnn)):
                 mmmiiinniii = ssss
                 mnmn = nnn[i]
     info = []
-# print(mnmn)
 if mmmiiinniii == 9999:
     print(-1)
 else:
