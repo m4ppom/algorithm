@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7543d34c-9b95-4aa1-b217-e8fe4893aad8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ad_gichul/17135_castle_def.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ad_gichul/cacaca.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ad_gichul/17472_making_bridge.py" beforeDir="false" afterPath="$PROJECT_DIR$/ad_gichul/17472_making_bridge.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/s2s3_ad_study/dfsbfs/7576_tomato.py" beforeDir="false" afterPath="$PROJECT_DIR$/s2s3_ad_study/dfsbfs/7576_tomato.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad_gichul/bridge2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ad_gichul/bridge2.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,46 +17,52 @@
     <session id="1391620595">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.2" value="2" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.2" value="3" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="9" />
-          <entry key="txt" value="10" />
+          <entry key="py" value="10" />
+          <entry key="txt" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="10" />
-          <entry key="Python" value="9" />
+          <entry key="PLAIN_TEXT" value="12" />
+          <entry key="Python" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="2994" />
-          <entry key="txt" value="42" />
+          <entry key="py" value="4210" />
+          <entry key="txt" value="55" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="42" />
-          <entry key="Python" value="2994" />
+          <entry key="PLAIN_TEXT" value="55" />
+          <entry key="Python" value="4210" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.6976744">
+    <splitter split-orientation="horizontal" split-proportion="0.755618">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/ad_gichul/17472_making_bridge.py">
+            <entry file="file://$PROJECT_DIR$/ad_gichul/17135_castle_def.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="333">
-                  <caret line="75" column="23" lean-forward="true" selection-start-line="75" selection-start-column="23" selection-end-line="75" selection-end-column="23" />
+                <state relative-caret-position="398">
+                  <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+                  <folding>
+                    <marker date="1571221795327" expanded="true" signature="78:112" ph="..." />
+                    <marker date="1571221795327" expanded="true" signature="197:485" ph="..." />
+                    <marker date="1571221795327" expanded="true" signature="483:484" ph="..." />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -65,12 +72,8 @@
       <split-second>
         <leaf>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/ad_gichul/bridge2.txt">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="399">
-                  <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-                </state>
-              </provider>
+            <entry file="file://$PROJECT_DIR$/ad_gichul/cacaca.txt">
+              <provider selected="true" editor-type-id="text-editor" />
             </entry>
           </file>
         </leaf>
@@ -107,12 +110,15 @@
         <option value="$PROJECT_DIR$/s2s3_ad_study/dfsbfs/tomato1.txt" />
         <option value="$PROJECT_DIR$/s2s3_ad_study/dfsbfs/7576_tomato.py" />
         <option value="$PROJECT_DIR$/ad_gichul/17472_making_bridge.py" />
+        <option value="$PROJECT_DIR$/ad_gichul/bridge2.txt" />
+        <option value="$PROJECT_DIR$/ad_gichul/cacaca.txt" />
+        <option value="$PROJECT_DIR$/ad_gichul/17135_castle_def.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="47" />
-    <option name="width" value="1879" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="396" />
+    <option name="width" value="1530" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectId" id="1Qit9fE9QwWS8MIgarYAmflS1Cc" />
@@ -124,7 +130,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -152,11 +157,12 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -175,8 +181,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.17472_making_bridge">
-    <configuration name="1260_dfs_wa_bfs" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.17135_castle_def">
+    <configuration name="17135_castle_def" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="20190812" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -184,11 +190,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/s2s3_ad_study/dfsbfs" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ad_gichul" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/s2s3_ad_study/dfsbfs/1260_dfs_wa_bfs.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ad_gichul/17135_castle_def.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -282,19 +288,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.1260_dfs_wa_bfs" />
       <item itemvalue="Python.2606_virus" />
       <item itemvalue="Python.2667_danG" />
       <item itemvalue="Python.2178_miro" />
       <item itemvalue="Python.17472_making_bridge" />
+      <item itemvalue="Python.17135_castle_def" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.17135_castle_def" />
         <item itemvalue="Python.17472_making_bridge" />
         <item itemvalue="Python.2178_miro" />
         <item itemvalue="Python.2667_danG" />
         <item itemvalue="Python.2606_virus" />
-        <item itemvalue="Python.1260_dfs_wa_bfs" />
       </list>
     </recent_temporary>
   </component>
@@ -322,16 +328,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="396" y="0" width="1530" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.06322445" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.07640751" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3257329" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3984799" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32516703" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3975501" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -959,6 +965,11 @@
           <line>90</line>
           <option name="timeStamp" value="326" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ad_gichul/17135_castle_def.py</url>
+          <line>37</line>
+          <option name="timeStamp" value="329" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -1092,17 +1103,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ad_gichul/17472_making_bridge.py">
+    <entry file="file://$PROJECT_DIR$/ad_gichul/bridge2.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="75" column="23" lean-forward="true" selection-start-line="75" selection-start-column="23" selection-end-line="75" selection-end-column="23" />
+        <state relative-caret-position="228">
+          <caret line="12" column="15" lean-forward="true" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ad_gichul/bridge2.txt">
+    <entry file="file://$PROJECT_DIR$/ad_gichul/17472_making_bridge.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        <state relative-caret-position="323">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ad_gichul/cacaca.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ad_gichul/17135_castle_def.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+          <folding>
+            <marker date="1571221795327" expanded="true" signature="78:112" ph="..." />
+            <marker date="1571221795327" expanded="true" signature="197:485" ph="..." />
+            <marker date="1571221795327" expanded="true" signature="483:484" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
