@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7543d34c-9b95-4aa1-b217-e8fe4893aad8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ad_gichul/17135_castle_def.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ad_gichul/cacaca.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ad_gichul/17471_garry_mann.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ad_gichul/gay.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ad_gichul/bridge2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ad_gichul/bridge2.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,52 +16,47 @@
     <session id="1391620595">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.2" value="3" />
-          <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.open.time.3" value="3" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="10" />
-          <entry key="txt" value="12" />
+          <entry key="py" value="12" />
+          <entry key="txt" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="12" />
-          <entry key="Python" value="10" />
+          <entry key="PLAIN_TEXT" value="14" />
+          <entry key="Python" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="4210" />
-          <entry key="txt" value="55" />
+          <entry key="py" value="4803" />
+          <entry key="txt" value="73" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="55" />
-          <entry key="Python" value="4210" />
+          <entry key="PLAIN_TEXT" value="73" />
+          <entry key="Python" value="4803" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.755618">
+    <splitter split-orientation="horizontal" split-proportion="0.70684934">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/ad_gichul/17135_castle_def.py">
+            <entry file="file://$PROJECT_DIR$/ad_gichul/17471_garry_mann.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="398">
-                  <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
-                  <folding>
-                    <marker date="1571221795327" expanded="true" signature="78:112" ph="..." />
-                    <marker date="1571221795327" expanded="true" signature="197:485" ph="..." />
-                    <marker date="1571221795327" expanded="true" signature="483:484" ph="..." />
-                  </folding>
+                <state relative-caret-position="481">
+                  <caret line="31" column="11" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
                 </state>
               </provider>
             </entry>
@@ -72,8 +66,12 @@
       <split-second>
         <leaf>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/ad_gichul/cacaca.txt">
-              <provider selected="true" editor-type-id="text-editor" />
+            <entry file="file://$PROJECT_DIR$/ad_gichul/gay.txt">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="524">
+                  <caret line="42" column="1" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
+                </state>
+              </provider>
             </entry>
           </file>
         </leaf>
@@ -113,12 +111,14 @@
         <option value="$PROJECT_DIR$/ad_gichul/bridge2.txt" />
         <option value="$PROJECT_DIR$/ad_gichul/cacaca.txt" />
         <option value="$PROJECT_DIR$/ad_gichul/17135_castle_def.py" />
+        <option value="$PROJECT_DIR$/ad_gichul/gay.txt" />
+        <option value="$PROJECT_DIR$/ad_gichul/17471_garry_mann.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="396" />
-    <option name="width" value="1530" />
+    <option name="x" value="470" />
+    <option name="width" value="1404" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectId" id="1Qit9fE9QwWS8MIgarYAmflS1Cc" />
@@ -141,17 +141,6 @@
               <item name="algorithm_practice" type="b2602c69:ProjectViewProjectNode" />
               <item name="algorithm_practice" type="462c0819:PsiDirectoryNode" />
               <item name="ad_gichul" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithm_practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithm_practice" type="462c0819:PsiDirectoryNode" />
-              <item name="s2s3_ad_study" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithm_practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithm_practice" type="462c0819:PsiDirectoryNode" />
-              <item name="s2s3_ad_study" type="462c0819:PsiDirectoryNode" />
-              <item name="dfsbfs" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -181,7 +170,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.17135_castle_def">
+  <component name="RunManager" selected="Python.17471_garry_mann">
     <configuration name="17135_castle_def" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="20190812" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -195,6 +184,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ad_gichul/17135_castle_def.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="17471_garry_mann" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="20190812" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ad_gichul" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ad_gichul/17471_garry_mann.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -245,27 +255,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="2606_virus" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="20190812" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/s2s3_ad_study/dfsbfs" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/s2s3_ad_study/dfsbfs/2606_virus.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="2667_danG" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="20190812" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -288,19 +277,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.2606_virus" />
       <item itemvalue="Python.2667_danG" />
       <item itemvalue="Python.2178_miro" />
       <item itemvalue="Python.17472_making_bridge" />
       <item itemvalue="Python.17135_castle_def" />
+      <item itemvalue="Python.17471_garry_mann" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.17471_garry_mann" />
         <item itemvalue="Python.17135_castle_def" />
         <item itemvalue="Python.17472_making_bridge" />
         <item itemvalue="Python.2178_miro" />
         <item itemvalue="Python.2667_danG" />
-        <item itemvalue="Python.2606_virus" />
       </list>
     </recent_temporary>
   </component>
@@ -328,16 +317,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="396" y="0" width="1530" height="1047" extended-state="0" />
+    <frame x="470" y="0" width="1404" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.07640751" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.09150805" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32516703" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3975501" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24164811" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.24832962" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -970,6 +959,11 @@
           <line>37</line>
           <option name="timeStamp" value="329" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ad_gichul/17471_garry_mann.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="332" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -1117,18 +1111,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ad_gichul/17135_castle_def.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="533">
+          <caret line="35" column="51" selection-start-line="35" selection-start-column="51" selection-end-line="35" selection-end-column="51" />
+          <folding>
+            <marker date="1571221795327" expanded="true" signature="78:112" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ad_gichul/cacaca.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/ad_gichul/17135_castle_def.py">
+    <entry file="file://$PROJECT_DIR$/s2s3_ad_study/16236_babyshark2.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ad_gichul/gay.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
-          <folding>
-            <marker date="1571221795327" expanded="true" signature="78:112" ph="..." />
-            <marker date="1571221795327" expanded="true" signature="197:485" ph="..." />
-            <marker date="1571221795327" expanded="true" signature="483:484" ph="..." />
-          </folding>
+        <state relative-caret-position="524">
+          <caret line="42" column="1" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ad_gichul/17471_garry_mann.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="31" column="11" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
         </state>
       </provider>
     </entry>
