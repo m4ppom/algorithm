@@ -4,6 +4,16 @@ sys.stdin = open('gay.txt', 'r')
 import itertools
 import collections
 
+
+def correct(numm):
+    for h in range(N):
+        if base[numm][h] == 1 and visited[h] == 0:
+            visited[h] = 1
+            
+
+    return
+
+
 N = int(input())
 mann_list = list(map(int, input().split()))
 base = [[0]*N for _ in range(N)]
@@ -13,7 +23,7 @@ for i in range(N):
         jj = info[j] -1
         base[i][jj] = 1
 print(base)
-mini = 9999999
+mini = 999999
 b = sum(mann_list)
 q = collections.deque()
 for m in range(N):
@@ -31,3 +41,9 @@ for m in range(N):
                 q.append(a[mm])
 print(mini)
 print(q)
+while q:
+    lst = q.popleft()
+    visited = [0]*N
+    for numb in lst:
+        bb = numb-1
+        # correct(bb)
