@@ -2,16 +2,16 @@ import sys
 sys.stdin = open('gay.txt', 'r')
 
 import itertools
+import copy
 import collections
 
 
 def correct(numm):
     for h in range(N):
-        if base[numm][h] == 1 and visited[h] == 0:
-            visited[h] = 1
-            
+        if base[numm][h] == 1 and visited[h-1] == 1:
+            baco[numm][h] = 2
+            baco[h][numm] = 2
 
-    return
 
 
 N = int(input())
@@ -44,6 +44,9 @@ print(q)
 while q:
     lst = q.popleft()
     visited = [0]*N
+    for iii in lst:
+        visited[lst-1] = 1
     for numb in lst:
+        baco = copy.deepcopy(base)
         bb = numb-1
-        # correct(bb)
+        correct(bb)

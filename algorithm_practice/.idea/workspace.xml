@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7543d34c-9b95-4aa1-b217-e8fe4893aad8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/20190812.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/20190812.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ad_gichul/17471_garry_mann.py" beforeDir="false" afterPath="$PROJECT_DIR$/ad_gichul/17471_garry_mann.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/s2s3_ad_study/baby_shark.txt" beforeDir="false" afterPath="$PROJECT_DIR$/s2s3_ad_study/baby_shark.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -813,8 +810,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/ad_gichul/17471_garry_mann.py</url>
-          <line>43</line>
-          <option name="timeStamp" value="333" />
+          <line>41</line>
+          <option name="timeStamp" value="334" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
