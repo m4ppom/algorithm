@@ -38,11 +38,6 @@ def bfs(c, d):
                 if base[ccc][ddd] == 1:
                     q.append((ccc, ddd))
                     base[ccc][ddd] = base[cc][dd] + 1
-
-
-
-
-
 dy = [-1, 1, 0, 0]
 dx = [0, 0, -1, 1]
 N, M = map(int, input().split())
@@ -51,9 +46,6 @@ for i in range(N):  # 미로 생성
     base[i] = list(map(int, input()))
 mini = 99999
 cnt = 0
-# base[0][0] = 0
-# dfs(0,0)
-# print(mini+1)
 base[0][0] = 2
 bfs(0, 0)
 
