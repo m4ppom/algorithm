@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7543d34c-9b95-4aa1-b217-e8fe4893aad8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/s2s3_ad_study/dfsbfs/2206_brick_bbu.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/s2s3_ad_study/dfsbfs/7569_tomaito.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/s2s3_ad_study/dfsbfs/bric.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/s2s3_ad_study/dfsbfs/ez_tomato.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/s2s3_ad_study/dfsbfs/totoma.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/20190812.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/20190812.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/s2s3_ad_study/gichul1/17140_bin_arr_calcu.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/s2s3_ad_study/gichul1/binbin.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/s2s3_ad_study/dfsbfs/2178_miro.py" beforeDir="false" afterPath="$PROJECT_DIR$/s2s3_ad_study/dfsbfs/2178_miro.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/s2s3_ad_study/dfsbfs/7576_tomato.py" beforeDir="false" afterPath="$PROJECT_DIR$/s2s3_ad_study/dfsbfs/7576_tomato.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,20 +16,22 @@
     <session id="1391620595">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="11" />
-          <entry key="txt" value="6" />
+          <entry key="py" value="12" />
+          <entry key="txt" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="6" />
-          <entry key="Python" value="11" />
+          <entry key="PLAIN_TEXT" value="8" />
+          <entry key="Python" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -54,19 +49,12 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.81170017">
+    <splitter split-orientation="horizontal" split-proportion="0.7897623">
       <split-first>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/s2s3_ad_study/dfsbfs/2206_brick_bbu.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="38">
-                  <caret line="2" selection-start-line="2" selection-end-line="47" selection-end-column="16" />
-                  <folding>
-                    <marker date="1571647282330" expanded="true" signature="144:795" ph="..." />
-                  </folding>
-                </state>
-              </provider>
+            <entry file="file://$PROJECT_DIR$/s2s3_ad_study/gichul1/17140_bin_arr_calcu.py">
+              <provider selected="true" editor-type-id="text-editor" />
             </entry>
           </file>
         </leaf>
@@ -74,7 +62,7 @@
       <split-second>
         <leaf>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/s2s3_ad_study/dfsbfs/bric.txt">
+            <entry file="file://$PROJECT_DIR$/s2s3_ad_study/gichul1/binbin.txt">
               <provider selected="true" editor-type-id="text-editor" />
             </entry>
           </file>
@@ -107,6 +95,7 @@
         <option value="$PROJECT_DIR$/s2s3_ad_study/dfsbfs/7576_tomato.py" />
         <option value="$PROJECT_DIR$/s2s3_ad_study/dfsbfs/2206_brick_bbu.py" />
         <option value="$PROJECT_DIR$/s2s3_ad_study/dfsbfs/bric.txt" />
+        <option value="$PROJECT_DIR$/s2s3_ad_study/gichul1/17140_bin_arr_calcu.py" />
       </list>
     </option>
   </component>
@@ -124,7 +113,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -141,12 +129,13 @@
               <item name="algorithm_practice" type="b2602c69:ProjectViewProjectNode" />
               <item name="algorithm_practice" type="462c0819:PsiDirectoryNode" />
               <item name="s2s3_ad_study" type="462c0819:PsiDirectoryNode" />
-              <item name="dfsbfs" type="462c0819:PsiDirectoryNode" />
+              <item name="gichul1" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -318,15 +307,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="321" y="0" width="1366" height="1047" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17620482" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17620482" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32962137" />
@@ -334,6 +318,10 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -1132,13 +1120,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/s2s3_ad_study/dfsbfs/2206_brick_bbu.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" selection-start-line="2" selection-end-line="47" selection-end-column="16" />
-          <folding>
-            <marker date="1571647282330" expanded="true" signature="144:795" ph="..." />
-          </folding>
+        <state relative-caret-position="323">
+          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/s2s3_ad_study/gichul1/binbin.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/s2s3_ad_study/gichul1/17140_bin_arr_calcu.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
