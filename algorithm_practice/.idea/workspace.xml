@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7543d34c-9b95-4aa1-b217-e8fe4893aad8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/s2s3_ad_study/gichul1/17140_bin_arr_calcu.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/s2s3_ad_study/gichul1/binbin.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/s2s3_ad_study/gichul1/17140_bin_arr_calcu.py" beforeDir="false" afterPath="$PROJECT_DIR$/s2s3_ad_study/gichul1/17140_bin_arr_calcu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/s2s3_ad_study/gichul1/binbin.txt" beforeDir="false" afterPath="$PROJECT_DIR$/s2s3_ad_study/gichul1/binbin.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,52 +17,65 @@
         <counts>
           <entry key="project.closed" value="1" />
           <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="12" />
+          <entry key="py" value="20" />
           <entry key="txt" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="PLAIN_TEXT" value="8" />
-          <entry key="Python" value="12" />
+          <entry key="Python" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="3953" />
-          <entry key="txt" value="52" />
+          <entry key="py" value="6261" />
+          <entry key="txt" value="94" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="52" />
-          <entry key="Python" value="3953" />
+          <entry key="PLAIN_TEXT" value="94" />
+          <entry key="Python" value="6261" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.7897623">
+    <splitter split-orientation="horizontal" split-proportion="0.8190128">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/s2s3_ad_study/gichul1/17140_bin_arr_calcu.py">
-              <provider selected="true" editor-type-id="text-editor" />
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="456">
+                  <caret line="24" column="17" lean-forward="true" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+                  <folding>
+                    <marker date="1571818774574" expanded="true" signature="156:1267" ph="..." />
+                    <marker date="1571818774574" expanded="true" signature="1523:1525" ph="..." />
+                  </folding>
+                </state>
+              </provider>
             </entry>
           </file>
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/s2s3_ad_study/gichul1/binbin.txt">
-              <provider selected="true" editor-type-id="text-editor" />
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="95">
+                  <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+                </state>
+              </provider>
             </entry>
           </file>
         </leaf>
@@ -95,12 +107,13 @@
         <option value="$PROJECT_DIR$/s2s3_ad_study/dfsbfs/7576_tomato.py" />
         <option value="$PROJECT_DIR$/s2s3_ad_study/dfsbfs/2206_brick_bbu.py" />
         <option value="$PROJECT_DIR$/s2s3_ad_study/dfsbfs/bric.txt" />
+        <option value="$PROJECT_DIR$/s2s3_ad_study/gichul1/binbin.txt" />
         <option value="$PROJECT_DIR$/s2s3_ad_study/gichul1/17140_bin_arr_calcu.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="321" />
+    <option name="x" value="554" />
     <option name="width" value="1366" />
     <option name="height" value="1047" />
   </component>
@@ -113,6 +126,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -135,7 +149,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -159,8 +172,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.2206_brick_bbu">
-    <configuration name="17135_castle_def" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.17140_bin_arr_calcu">
+    <configuration name="17140_bin_arr_calcu" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="20190812" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -168,11 +181,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ad_gichul" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/s2s3_ad_study/gichul1" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ad_gichul/17135_castle_def.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/s2s3_ad_study/gichul1/17140_bin_arr_calcu.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -266,19 +279,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.17135_castle_def" />
       <item itemvalue="Python.17471_garry_mann" />
       <item itemvalue="Python.7569_tomaito" />
       <item itemvalue="Python.7576_tomato" />
       <item itemvalue="Python.2206_brick_bbu" />
+      <item itemvalue="Python.17140_bin_arr_calcu" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.17140_bin_arr_calcu" />
         <item itemvalue="Python.2206_brick_bbu" />
         <item itemvalue="Python.7576_tomato" />
         <item itemvalue="Python.7569_tomaito" />
         <item itemvalue="Python.17471_garry_mann" />
-        <item itemvalue="Python.17135_castle_def" />
       </list>
     </recent_temporary>
   </component>
@@ -306,15 +319,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="321" y="0" width="1366" height="1047" extended-state="0" />
+    <frame x="554" y="0" width="1366" height="1047" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17620482" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17620482" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32962137" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997773" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.22048998" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3908686" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -992,6 +1006,21 @@
           <line>21</line>
           <option name="timeStamp" value="365" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/s2s3_ad_study/gichul1/17140_bin_arr_calcu.py</url>
+          <line>65</line>
+          <option name="timeStamp" value="366" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/s2s3_ad_study/gichul1/17140_bin_arr_calcu.py</url>
+          <line>92</line>
+          <option name="timeStamp" value="375" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/s2s3_ad_study/gichul1/17140_bin_arr_calcu.py</url>
+          <line>107</line>
+          <option name="timeStamp" value="376" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -1012,6 +1041,21 @@
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
+      <expression>
+        <expression-string>counter</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>flag</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>base2</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>minnn</expression-string>
         <language-id>Python</language-id>
@@ -1044,16 +1088,6 @@
       </expression>
       <expression>
         <expression-string>one</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>visitid_bfs</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>visitid_dfs</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -1091,13 +1125,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Program Files/Python35/Lib/codecs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="308" selection-start-line="308" selection-end-line="308" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/s2s3_ad_study/dfsbfs/ez_tomato.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -1120,16 +1147,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/s2s3_ad_study/dfsbfs/2206_brick_bbu.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+        <state relative-caret-position="114">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python35/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="308" selection-start-line="308" selection-end-line="308" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/s2s3_ad_study/gichul1/binbin.txt">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/s2s3_ad_study/gichul1/17140_bin_arr_calcu.py">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="17" lean-forward="true" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+          <folding>
+            <marker date="1571818774574" expanded="true" signature="156:1267" ph="..." />
+            <marker date="1571818774574" expanded="true" signature="1523:1525" ph="..." />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
