@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7543d34c-9b95-4aa1-b217-e8fe4893aad8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/s2s3_ad_study/gichul2/17143_naksi_king.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/s2s3_ad_study/gichul2/einger_King.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/s2s3_ad_study/gichul2/17144_mise_what.py" beforeDir="false" afterPath="$PROJECT_DIR$/s2s3_ad_study/gichul2/17144_mise_what.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/s2s3_ad_study/gichul2/mise.txt" beforeDir="false" afterPath="$PROJECT_DIR$/s2s3_ad_study/gichul2/mise.txt" afterDir="false" />
@@ -52,7 +54,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.17140_bin_arr_calcu">
+  <component name="RunManager" selected="Python.17144_mise_what">
     <configuration name="17140_bin_arr_calcu" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="20190812" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -74,7 +76,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="17471_garry_mann" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="17144_mise_what" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="20190812" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -82,11 +84,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ad_gichul" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/s2s3_ad_study/gichul2" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ad_gichul/17471_garry_mann.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/s2s3_ad_study/gichul2/17144_mise_what.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -159,19 +161,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.17471_garry_mann" />
       <item itemvalue="Python.7569_tomaito" />
       <item itemvalue="Python.7576_tomato" />
       <item itemvalue="Python.2206_brick_bbu" />
       <item itemvalue="Python.17140_bin_arr_calcu" />
+      <item itemvalue="Python.17144_mise_what" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.17144_mise_what" />
         <item itemvalue="Python.17140_bin_arr_calcu" />
         <item itemvalue="Python.2206_brick_bbu" />
         <item itemvalue="Python.7576_tomato" />
         <item itemvalue="Python.7569_tomaito" />
-        <item itemvalue="Python.17471_garry_mann" />
       </list>
     </recent_temporary>
   </component>
@@ -869,6 +871,21 @@
           <line>107</line>
           <option name="timeStamp" value="376" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/s2s3_ad_study/gichul2/17144_mise_what.py</url>
+          <line>114</line>
+          <option name="timeStamp" value="377" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/s2s3_ad_study/gichul2/17144_mise_what.py</url>
+          <line>127</line>
+          <option name="timeStamp" value="378" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/s2s3_ad_study/gichul2/17144_mise_what.py</url>
+          <line>117</line>
+          <option name="timeStamp" value="379" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -880,65 +897,13 @@
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
+        <watch expression="q" language="Python" />
+        <watch expression="base_copy" language="Python" />
         <watch expression="base" language="Python" />
-        <watch expression="minnn" language="Python" />
-        <watch expression="basecopy" language="Python" />
-        <watch expression="minnn" language="Python" />
+        <watch expression="num" language="Python" />
+        <watch expression="cucucucu" language="Python" />
+        <watch expression="visitid_bfs" language="Python" />
       </configuration>
     </watches-manager>
-  </component>
-  <component name="debuggerHistoryManager">
-    <expressions id="watch">
-      <expression>
-        <expression-string>counter</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>flag</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>base2</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>minnn</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>basecopy</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>que</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>phase</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>base</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>zero</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>one</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-    </expressions>
   </component>
 </project>
