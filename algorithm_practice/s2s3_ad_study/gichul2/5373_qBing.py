@@ -9,16 +9,22 @@ import copy
 # + clockwise  - reverse
 #  U: 윗 면, D: 아랫 면, F: 앞 면, B: 뒷 면, L: 왼쪽 면, R: 오른쪽 면이다. 두 번째 문자는 돌린 방향이다
 # 윗 면은 흰색, 아랫 면은 노란색, 앞 면은 빨간색, 뒷 면은 오렌지색, 왼쪽 면은 초록색, 오른쪽 면은 파란색이다.
-def spinn(arrr, wise):
+def spinn(arrr, wise):  # ok
     temp = [[0,0,0],[0,0,0],[0,0,0]]
     if wise =="+":
         for ii in range(3):
             for jj in range(3):
-                arrr[ii][jj] = temp[jj][2-ii]
+                temp[jj][2 - ii] = arrr[ii][jj]
     else:
         for ii in range(3):
             for jj in range(3):
-                arrr[ii][jj] = temp[2 - jj][ii]
+                temp[2 - jj][ii] = arrr[ii][jj]
+                # 0 0 2 0
+                # 0 1 1 0
+                # 0 2 0 0
+                # 1 0 2 1
+                # 1 1 1 1
+                # 1 2 0 1
     return
 
 def circulating_L_R(LR, wwise):
@@ -29,7 +35,7 @@ def circulating_L_R(LR, wwise):
             temmp = [copy.deepcopy(cube[0][0][0]), copy.deepcopy(cube[0][1][0]), copy.deepcopy(cube[0][2][0])]
             for cucu in range(3):
                 cube[ddddddd[cucu]][0][0], cube[ddddddd[cucu]][1][0], cube[ddddddd[cucu]][2][0] = cube[reverss[cucu]][0][0], cube[reverss[cucu]][1][0], cube[reverss[cucu]][2][0]
-            cube[1][0][0], cube[1][1][0], cube[1][2][0] = temmp[0], temmp[1], temmp[2]
+            cube[3][0][0], cube[3][1][0], cube[3][2][0] = temmp[0], temmp[1], temmp[2]
         elif LR == "R":
             reverss = [1, 5, 3]
             ddddddd = [0, 1, 5]
@@ -45,18 +51,25 @@ def circulating_L_R(LR, wwise):
                 cube[ddddddd[cucu]][2][0], cube[ddddddd[cucu]][2][1], cube[ddddddd[cucu]][2][2] = cube[reverss[cucu]][2][0], cube[reverss[cucu]][2][1], cube[reverss[cucu]][2][2]
             cube[2][2][0], cube[2][2][1], cube[2][2][2] = temmp[0], temmp[1], temmp[2]
 
-        elif LR == "B":
-            reverss = [4, 5, 2]
-            ddddddd = [0, 4, 5]
-
+        elif LR == "B":  # 반대로 끼워봄
+            reverss = [2, 5, 4]
+            ddddddd = [0, 2, 5]
             temmp = [copy.deepcopy(cube[0][0][0]), copy.deepcopy(cube[0][0][1]), copy.deepcopy(cube[0][0][2])]
             for cucu in range(3):
                 cube[ddddddd[cucu]][0][0], cube[ddddddd[cucu]][0][1], cube[ddddddd[cucu]][0][2] = cube[reverss[cucu]][0][0], cube[reverss[cucu]][0][1], cube[reverss[cucu]][0][2]
             cube[4][0][0], cube[4][0][1], cube[4][0][2] = temmp[0], temmp[1], temmp[2]
+        # elif LR == "B":
+        #     reverss = [4, 5, 2]
+        #     ddddddd = [0, 4, 5]
+        #
+        #     temmp = [copy.deepcopy(cube[0][0][0]), copy.deepcopy(cube[0][0][1]), copy.deepcopy(cube[0][0][2])]
+        #     for cucu in range(3):
+        #         cube[ddddddd[cucu]][0][0], cube[ddddddd[cucu]][0][1], cube[ddddddd[cucu]][0][2] = cube[reverss[cucu]][0][0], cube[reverss[cucu]][0][1], cube[reverss[cucu]][0][2]
+        #     cube[4][0][0], cube[4][0][1], cube[4][0][2] = temmp[0], temmp[1], temmp[2]
 
 
     else:
-        if LR == "L":
+        if LR == "L":  # ok
             reverss=[3,5,1]
             ddddddd=[0,3,5]
             temmp = [copy.deepcopy(cube[0][0][0]), copy.deepcopy(cube[0][1][0]), copy.deepcopy(cube[0][2][0])]
@@ -72,21 +85,31 @@ def circulating_L_R(LR, wwise):
             cube[1][0][2], cube[1][1][2], cube[1][2][2] = temmp[0], temmp[1], temmp[2]
 
 
-        elif LR == "F":
-            reverss = [2, 5, 4]
-            ddddddd = [0, 2, 5]
-            temmp = [copy.deepcopy(cube[0][0][0]), copy.deepcopy(cube[0][0][1]), copy.deepcopy(cube[0][0][2])]
-            for cucu in range(3):
-                cube[ddddddd[cucu]][0][0], cube[ddddddd[cucu]][0][1], cube[ddddddd[cucu]][0][2] = cube[reverss[cucu]][0][0], cube[reverss[cucu]][0][1], cube[reverss[cucu]][0][2]
-            cube[2][2][0], cube[2][2][1], cube[2][2][2] = temmp[0], temmp[1], temmp[2]
-        elif LR == "B":
+        elif LR == "F":  # F -
             reverss = [2, 5, 4]
             ddddddd = [0, 2, 5]
             temmp = [copy.deepcopy(cube[0][2][0]), copy.deepcopy(cube[0][2][1]), copy.deepcopy(cube[0][2][2])]
+            cube[0][2][0], cube[0][2][1], cube[0][2][2] = cube[2][0][0], cube[2][1][0], cube[2][2][0]
+            cube[2][0][0], cube[2][1][0], cube[2][2][0] = cube[5][2][0], cube[5][2][1], cube[5][2][2]
+            cube[5][2][0], cube[5][2][1], cube[5][2][2] = cube[4][2][2], cube[4][1][2], cube[4][0][2]
+            cube[4][2][2], cube[4][1][2], cube[4][0][2] =
+
+            # for cucu in range(3):
+            #     cube[ddddddd[cucu]][2][0], cube[ddddddd[cucu]][2][1], cube[ddddddd[cucu]][2][2] = cube[reverss[cucu]][2][0], cube[reverss[cucu]][2][1], cube[reverss[cucu]][2][2]
+            cube[4][2][0], cube[4][2][1], cube[4][2][2] = temmp[0], temmp[1], temmp[2]
+        # elif LR == "B":  # 반대로 끼워봄        #     reverss = [2, 5, 4]
+        #     ddddddd = [0, 2, 5]
+        #     temmp = [copy.deepcopy(cube[0][2][0]), copy.deepcopy(cube[0][2][1]), copy.deepcopy(cube[0][2][2])]
+        #     for cucu in range(3):
+        #         cube[ddddddd[cucu]][2][0], cube[ddddddd[cucu]][2][1], cube[ddddddd[cucu]][2][2] = cube[reverss[cucu]][2][0], cube[reverss[cucu]][2][1], cube[reverss[cucu]][2][2]
+        #     cube[4][0][0], cube[4][0][1], cube[4][0][2] = temmp[0], temmp[1], temmp[2]
+        elif LR == "B":
+            reverss = [4, 5, 2]
+            ddddddd = [0, 4, 5]
+            temmp = [copy.deepcopy(cube[0][0][0]), copy.deepcopy(cube[0][0][1]), copy.deepcopy(cube[0][0][2])]
             for cucu in range(3):
-                cube[ddddddd[cucu]][2][0], cube[ddddddd[cucu]][2][1], cube[ddddddd[cucu]][2][2] = cube[reverss[cucu]][2][0], cube[reverss[cucu]][2][1], cube[reverss[cucu]][2][2]
-            cube[4][0][0], cube[4][0][1], cube[4][0][2] = temmp[0], temmp[1], temmp[2]
-    return
+                cube[ddddddd[cucu]][0][0], cube[ddddddd[cucu]][0][1], cube[ddddddd[cucu]][0][2] = cube[reverss[cucu]][0][0], cube[reverss[cucu]][0][1], cube[reverss[cucu]][0][2]
+            cube[2][0][0], cube[2][0][1], cube[2][0][2] = temmp[0], temmp[1], temmp[2]
 
 
 def row_circu(weare, plmi):
@@ -105,7 +128,7 @@ def row_circu(weare, plmi):
             cube[1][0] = cube[2][0]
             cube[2][0] = temmmmp
             return
-    else:
+    else:  # down
         if plmi == '+':
             temmmmp = copy.deepcopy(cube[3][2])
             cube[3][2] = cube[2][2]
@@ -180,6 +203,7 @@ def cubing(facing, direction):
 
 
 def convert():
+    print(cube)
     for endendend in range(3):
         for endend in range(3):
             if cube[0][endendend][endend] == 0:
@@ -207,6 +231,7 @@ def stcu():
     cube[0] = [[0,0,0],[0,0,0],[0,0,0]]
     return
 
+# L- F+ B +
 
 # w= 0, o=1, b=2, r=3, g= 4, y=5
 testcase = int(input())
