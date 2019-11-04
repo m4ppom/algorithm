@@ -24,17 +24,36 @@ def spinn(arrr, wise):
 def circulating_L_R(LR, wwise):
     if wwise == "+":
         if LR == "L":
+            reverss=[1,5,3]
+            ddddddd=[0,1,5]
             temmp = [copy.deepcopy(cube[0][0][0]), copy.deepcopy(cube[0][1][0]), copy.deepcopy(cube[0][2][0])]
-            cube[0][0][0], cube[0][1][0], cube[0][2][0] = cube[1][0][0], cube[1][1][0], cube[1][2][0]
-            cube[1][0][0], cube[1][1][0], cube[1][2][0] = cube[5][0][0], cube[5][1][0], cube[5][2][0]
-            cube[5][0][0], cube[5][1][0], cube[5][2][0] = cube[3][0][0], cube[3][1][0], cube[3][2][0]
-            cube[3][0][0], cube[3][1][0], cube[3][2][0] = temmp[0], temmp[1], temmp[2]
-        else:
+            for cucu in range(3):
+                cube[ddddddd[cucu]][0][0], cube[ddddddd[cucu]][1][0], cube[ddddddd[cucu]][2][0] = cube[reverss[cucu]][0][0], cube[reverss[cucu]][1][0], cube[reverss[cucu]][2][0]
+            cube[1][0][0], cube[1][1][0], cube[1][2][0] = temmp[0], temmp[1], temmp[2]
+        elif LR == "R":
+            reverss = [1, 5, 3]
+            ddddddd = [0, 1, 5]
             temmp = [copy.deepcopy(cube[0][0][2]), copy.deepcopy(cube[0][1][2]), copy.deepcopy(cube[0][2][2])]
-            cube[0][0][2], cube[0][1][2], cube[0][2][2] = cube[1][0][2], cube[1][1][2], cube[1][2][2]
-            cube[1][0][2], cube[1][1][2], cube[1][2][2] = cube[5][0][2], cube[5][1][2], cube[5][2][2]
-            cube[5][0][2], cube[5][1][2], cube[5][2][2] = cube[3][0][2], cube[3][1][2], cube[3][2][2]
-            cube[3][0][2], cube[3][1][2], cube[3][2][2] = temmp[0], temmp[1], temmp[2]
+            for cucu in range(3):
+                cube[ddddddd[cucu]][0][2], cube[ddddddd[cucu]][1][2], cube[ddddddd[cucu]][2][2] = cube[reverss[cucu]][0][2], cube[reverss[cucu]][1][2], cube[reverss[cucu]][2][2]
+            cube[1][0][2], cube[1][1][2], cube[1][2][2] = temmp[0], temmp[1], temmp[2]
+        elif LR == "F":
+            reverss = [4, 5, 2]
+            ddddddd = [0, 4, 5]
+            temmp = [copy.deepcopy(cube[0][2][0]), copy.deepcopy(cube[0][2][1]), copy.deepcopy(cube[0][2][2])]
+            for cucu in range(3):
+                cube[ddddddd[cucu]][2][0], cube[ddddddd[cucu]][2][1], cube[ddddddd[cucu]][2][2] = cube[reverss[cucu]][2][0], cube[reverss[cucu]][2][1], cube[reverss[cucu]][2][2]
+            cube[2][2][0], cube[2][2][1], cube[2][2][2] = temmp[0], temmp[1], temmp[2]
+
+        elif LR == "B":
+            reverss = [4, 5, 2]
+            ddddddd = [0, 4, 5]
+
+            temmp = [copy.deepcopy(cube[0][0][0]), copy.deepcopy(cube[0][0][1]), copy.deepcopy(cube[0][0][2])]
+            for cucu in range(3):
+                cube[ddddddd[cucu]][0][0], cube[ddddddd[cucu]][0][1], cube[ddddddd[cucu]][0][2] = cube[reverss[cucu]][0][0], cube[reverss[cucu]][0][1], cube[reverss[cucu]][0][2]
+            cube[4][0][0], cube[4][0][1], cube[4][0][2] = temmp[0], temmp[1], temmp[2]
+
 
     else:
         if LR == "L":
@@ -44,13 +63,29 @@ def circulating_L_R(LR, wwise):
             for cucu in range(3):
                 cube[ddddddd[cucu]][0][0], cube[ddddddd[cucu]][1][0], cube[ddddddd[cucu]][2][0] = cube[reverss[cucu]][0][0], cube[reverss[cucu]][1][0], cube[reverss[cucu]][2][0]
             cube[1][0][0], cube[1][1][0], cube[1][2][0] = temmp[0], temmp[1], temmp[2]
-        else:
+        elif LR == "R":
             reverss = [3, 5, 1]
             ddddddd = [0, 3, 5]
             temmp = [copy.deepcopy(cube[0][0][2]), copy.deepcopy(cube[0][1][2]), copy.deepcopy(cube[0][2][2])]
             for cucu in range(3):
                 cube[ddddddd[cucu]][0][2], cube[ddddddd[cucu]][1][2], cube[ddddddd[cucu]][2][2] = cube[reverss[cucu]][0][2], cube[reverss[cucu]][1][2], cube[reverss[cucu]][2][2]
             cube[1][0][2], cube[1][1][2], cube[1][2][2] = temmp[0], temmp[1], temmp[2]
+
+
+        elif LR == "F":
+            reverss = [2, 5, 4]
+            ddddddd = [0, 2, 5]
+            temmp = [copy.deepcopy(cube[0][0][0]), copy.deepcopy(cube[0][0][1]), copy.deepcopy(cube[0][0][2])]
+            for cucu in range(3):
+                cube[ddddddd[cucu]][0][0], cube[ddddddd[cucu]][0][1], cube[ddddddd[cucu]][0][2] = cube[reverss[cucu]][0][0], cube[reverss[cucu]][0][1], cube[reverss[cucu]][0][2]
+            cube[2][2][0], cube[2][2][1], cube[2][2][2] = temmp[0], temmp[1], temmp[2]
+        elif LR == "B":
+            reverss = [2, 5, 4]
+            ddddddd = [0, 2, 5]
+            temmp = [copy.deepcopy(cube[0][2][0]), copy.deepcopy(cube[0][2][1]), copy.deepcopy(cube[0][2][2])]
+            for cucu in range(3):
+                cube[ddddddd[cucu]][2][0], cube[ddddddd[cucu]][2][1], cube[ddddddd[cucu]][2][2] = cube[reverss[cucu]][2][0], cube[reverss[cucu]][2][1], cube[reverss[cucu]][2][2]
+            cube[4][0][0], cube[4][0][1], cube[4][0][2] = temmp[0], temmp[1], temmp[2]
     return
 
 
@@ -107,10 +142,10 @@ def cubing(facing, direction):
             row_circu("U", "-")
     elif facing == 'D':
         if direction == "+":
-            spinn(cube[0], '+')
+            spinn(cube[5], '+')
             row_circu("D", "+")
         else:
-            spinn(cube[0], '-')
+            spinn(cube[5], '-')
             row_circu("D", "-")
     elif facing == 'L':
         if direction == '+':
@@ -126,6 +161,22 @@ def cubing(facing, direction):
         else:
             circulating_L_R('R', '-')
             spinn(cube[2], '-')
+    elif facing == 'F':
+        if direction == '+':
+            circulating_L_R('F', '+')
+            spinn(cube[3], '+')
+        else:
+            circulating_L_R('F', '-')
+            spinn(cube[3], '-')
+
+    elif facing == 'B':
+        if direction == '+':
+            circulating_L_R('B', '+')
+            spinn(cube[1], '+')
+        else:
+            circulating_L_R('B', '-')
+            spinn(cube[1], '-')
+
 
 
 def convert():
