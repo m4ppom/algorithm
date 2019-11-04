@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7543d34c-9b95-4aa1-b217-e8fe4893aad8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/20190812.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/20190812.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/s2s3_ad_study/gichul2/5373_qBing.py" beforeDir="false" afterPath="$PROJECT_DIR$/s2s3_ad_study/gichul2/5373_qBing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/s2s3_ad_study/gichul2/qbing.txt" beforeDir="false" afterPath="$PROJECT_DIR$/s2s3_ad_study/gichul2/qbing.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,11 +20,6 @@
         <option value="Python Script" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>2000</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -50,7 +49,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.17143_naksi_king">
+  <component name="RunManager" selected="Python.5373_qBing">
     <configuration name="17140_bin_arr_calcu" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="20190812" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -135,7 +134,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="7576_tomato" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="5373_qBing" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="20190812" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -143,11 +142,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/s2s3_ad_study/dfsbfs" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/s2s3_ad_study/gichul2" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/s2s3_ad_study/dfsbfs/7576_tomato.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/s2s3_ad_study/gichul2/5373_qBing.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -157,19 +156,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.7576_tomato" />
       <item itemvalue="Python.2206_brick_bbu" />
       <item itemvalue="Python.17140_bin_arr_calcu" />
       <item itemvalue="Python.17144_mise_what" />
       <item itemvalue="Python.17143_naksi_king" />
+      <item itemvalue="Python.5373_qBing" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.5373_qBing" />
         <item itemvalue="Python.17143_naksi_king" />
         <item itemvalue="Python.17144_mise_what" />
         <item itemvalue="Python.17140_bin_arr_calcu" />
         <item itemvalue="Python.2206_brick_bbu" />
-        <item itemvalue="Python.7576_tomato" />
       </list>
     </recent_temporary>
   </component>
@@ -906,6 +905,11 @@
           <url>file://$PROJECT_DIR$/s2s3_ad_study/gichul2/17143_naksi_king.py</url>
           <line>4</line>
           <option name="timeStamp" value="386" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/s2s3_ad_study/gichul2/5373_qBing.py</url>
+          <line>160</line>
+          <option name="timeStamp" value="389" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>

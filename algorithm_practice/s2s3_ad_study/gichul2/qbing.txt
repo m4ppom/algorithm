@@ -11,12 +11,15 @@ L- U- L+ U- L- U- U- L+ U+ U+
 rww
 rww
 rww
+
 bbb
 www
 ggg
+
 gwg
 owr
 bwb
+
 gwo
 www
 rww
