@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7543d34c-9b95-4aa1-b217-e8fe4893aad8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/s2s3_ad_study/gichul4/15684_ladder.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/s2s3_ad_study/gichul4/15685_drogo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/s2s3_ad_study/gichul4/drogo.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/s2s3_ad_study/gichul4/ladder.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/s2s3_ad_study/gichul4/15683_gamC.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/s2s3_ad_study/gichul4/gamC.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/s2s3_ad_study/gichul4/15684_ladder.py" beforeDir="false" afterPath="$PROJECT_DIR$/s2s3_ad_study/gichul4/15684_ladder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/s2s3_ad_study/gichul4/ladder.txt" beforeDir="false" afterPath="$PROJECT_DIR$/s2s3_ad_study/gichul4/ladder.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -938,18 +938,23 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/s2s3_ad_study/gichul4/15684_ladder.py</url>
-          <line>6</line>
-          <option name="timeStamp" value="397" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/s2s3_ad_study/gichul4/15684_ladder.py</url>
-          <line>59</line>
+          <line>71</line>
           <option name="timeStamp" value="400" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/s2s3_ad_study/gichul4/15684_ladder.py</url>
-          <line>66</line>
+          <line>78</line>
           <option name="timeStamp" value="404" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/s2s3_ad_study/gichul4/15684_ladder.py</url>
+          <line>103</line>
+          <option name="timeStamp" value="408" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/s2s3_ad_study/gichul4/15684_ladder.py</url>
+          <line>93</line>
+          <option name="timeStamp" value="409" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -963,6 +968,9 @@
     <watches-manager>
       <configuration name="PythonConfigurationType">
         <watch expression="base" language="Python" />
+        <watch expression="hubo" language="Python" />
+        <watch expression="next" language="Python" />
+        <watch expression="num" language="Python" />
       </configuration>
     </watches-manager>
   </component>
