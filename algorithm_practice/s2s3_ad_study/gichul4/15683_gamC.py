@@ -87,7 +87,7 @@ def cctv_info(number, a, b):
         cctv4(a, b)
     elif number == 5:
         cctv5(a, b)
-    
+
 
 # 안에 함수 와일 팝 안에 함수와일 팝 안에 함수 와일
 row, col = map(int,input().split())
@@ -101,4 +101,32 @@ for ii in range(row):
             cctv.append((ii, jj))
 a, b = cctv.pop()
 cctv_info(base[a][b])
+
+leng = len(cctv)
+
+for one in range(4):
+    if leng == 0:
+        break
+    for two in range(4):
+        if leng == 1:
+            break
+        for three in range(4):
+            if leng == 2:
+                break
+            for four in range(4):
+                if leng == 3:
+                    break
+                for five in range(4):
+                    if leng == 4:
+                        break
+                    for six in range(4):
+                        if leng == 5:
+                            break
+                        for seven in range(4):
+                            if leng == 6:
+                                break
+                            for eight in range(4):
+                                if leng == 7:
+                                    break
+
 
