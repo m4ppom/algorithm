@@ -6,47 +6,185 @@ sys.stdin = open('gamC.txt', 'r')
 # 회전 항상 90도 6은 벽
 # 이전에 사냥꾼 느낌으로 하될듯. 사각지대 최소일 때
 # 1 버젼 4개 2 = 2개 3=4개 4  4개 5=1개
+import collections, copy
 
-def cctv1(i, j):
+def cctv1(i, j, ggu):
     global row, col
 
-    for ggu in range(4):
-        if ggu == 0:  # up
-            for a in range(i, -1):
-                if base[a][j] == 0:
-                    if base[a][j] == 6:
-                        break
-                    base[a][j] = 7
-        elif ggu == 1:  # right
-            for a in range(j, col):
-                if base[i][a] == 6:
+    if ggu == 0:  # up
+        for a in range(i, -1, -1):
+            if base[a][j] == 0:
+                if base[a][j] == 6:
                     break
-                if base[i][a] == 0:
-                    base[i][a] = 7
-        elif ggu == 2:  # down
-            for a in range(i, row):
-                if base[a][j] == 0:
-                    if base[a][j] == 6:
-                        break
-                    base[a][j] = 7
-        elif ggu == 3:  # left
-            for a in range(j, -1):
-                if base[i][a] == 6:
+                base[a][j] = 7
+    elif ggu == 1:  # right
+        for a in range(j, col):
+            if base[i][a] == 6:
+                break
+            if base[i][a] == 0:
+                base[i][a] = 7
+    elif ggu == 2:  # down
+        for a in range(i, row):
+            if base[a][j] == 0:
+                if base[a][j] == 6:
                     break
-                if base[i][a] == 0:
-                    base[i][a] = 7
+                base[a][j] = 7
+    elif ggu == 3:  # left
+        for a in range(j, -1, -1):
+            if base[i][a] == 6:
+                break
+            if base[i][a] == 0:
+                base[i][a] = 7
 
 
-def cctv2(i, j, dir):
-    return
+def cctv2(i, j, ggu):
+    global row, col
+
+    if ggu == 0:  # up down
+        for a in range(i, -1, -1):
+            if base[a][j] == 0:
+                if base[a][j] == 6:
+                    break
+                base[a][j] = 7
+        for a in range(i, row):
+            if base[a][j] == 0:
+                if base[a][j] == 6:
+                    break
+                base[a][j] = 7
+
+    elif ggu == 1:  # right left
+        for a in range(j, col):
+            if base[i][a] == 6:
+                break
+            if base[i][a] == 0:
+                base[i][a] = 7
+        for a in range(j, -1,-1):
+            if base[i][a] == 6:
+                break
+            if base[i][a] == 0:
+                base[i][a] = 7
 
 
-def cctv3(i, j, dir):
-    return
+def cctv3(i, j, ggu):
+    global row, col
+
+    if ggu == 0:  # up right
+        for a in range(i, -1, -1):
+            if base[a][j] == 0:
+                if base[a][j] == 6:
+                    break
+                base[a][j] = 7
+        for a in range(j, col):
+            if base[i][a] == 6:
+                break
+            if base[i][a] == 0:
+                base[i][a] = 7
+
+    elif ggu == 1:  # right down
+        for a in range(j, col):
+            if base[i][a] == 6:
+                break
+            if base[i][a] == 0:
+                base[i][a] = 7
+        for a in range(i, row):
+            if base[a][j] == 0:
+                if base[a][j] == 6:
+                    break
+                base[a][j] = 7
+    elif ggu == 2:  # down left
+        for a in range(i, row):
+            if base[a][j] == 0:
+                if base[a][j] == 6:
+                    break
+                base[a][j] = 7
+        for a in range(j, -1, -1):
+            if base[i][a] == 6:
+                break
+            if base[i][a] == 0:
+                base[i][a] = 7
+    elif ggu == 3:  # left up
+        for a in range(j, -1, -1):
+            if base[i][a] == 6:
+                break
+            if base[i][a] == 0:
+                base[i][a] = 7
+        for a in range(i, -1, -1):
+            if base[a][j] == 0:
+                if base[a][j] == 6:
+                    break
+                base[a][j] = 7
 
 
-def cctv4(i, j, dir):
-    return
+def cctv4(i, j, ggu):
+    global row, col
+
+    if ggu == 0:  # up right down
+        for a in range(i, -1, -1):
+            if base[a][j] == 0:
+                if base[a][j] == 6:
+                    break
+                base[a][j] = 7
+        for a in range(j, col):
+            if base[i][a] == 6:
+                break
+            if base[i][a] == 0:
+                base[i][a] = 7
+        for a in range(i, row):
+            if base[a][j] == 0:
+                if base[a][j] == 6:
+                    break
+                base[a][j] = 7
+
+    elif ggu == 1:  # right down left
+        for a in range(j, col):
+            if base[i][a] == 6:
+                break
+            if base[i][a] == 0:
+                base[i][a] = 7
+        for a in range(i, row):
+            if base[a][j] == 0:
+                if base[a][j] == 6:
+                    break
+                base[a][j] = 7
+        for a in range(j, -1, -1):
+            if base[i][a] == 6:
+                break
+            if base[i][a] == 0:
+                base[i][a] = 7
+
+    elif ggu == 2:  # down left up
+        for a in range(i, row):
+            if base[a][j] == 0:
+                if base[a][j] == 6:
+                    break
+                base[a][j] = 7
+        for a in range(j, -1, -1):
+            if base[i][a] == 6:
+                break
+            if base[i][a] == 0:
+                base[i][a] = 7
+        for a in range(i, -1, -1):
+            if base[a][j] == 0:
+                if base[a][j] == 6:
+                    break
+                base[a][j] = 7
+
+    elif ggu == 3:  # left up right
+        for a in range(j, -1, -1):
+            if base[i][a] == 6:
+                break
+            if base[i][a] == 0:
+                base[i][a] = 7
+        for a in range(i, -1, -1):
+            if base[a][j] == 0:
+                if base[a][j] == 6:
+                    break
+                base[a][j] = 7
+        for a in range(j, col):
+            if base[i][a] == 6:
+                break
+            if base[i][a] == 0:
+                base[i][a] = 7
 
 
 def cctv5(i, j):
@@ -56,7 +194,7 @@ def cctv5(i, j):
             if base[a][j] == 6:
                 break
             base[a][j] = 7
-    for a in range(i, -1):
+    for a in range(i, -1, -1):
         if base[a][j] == 0:
             if base[a][j] == 6:
                 break
@@ -66,28 +204,60 @@ def cctv5(i, j):
             break
         if base[i][a] == 0:
             base[i][a] = 7
-    for a in range(j, -1):
+    for a in range(j, -1, -1):
         if base[i][a] == 6:
             break
         if base[i][a] == 0:
             base[i][a] = 7
-    while cctv:
-        a, b = cctv.pop()
-        cctv_info(base[a][b])
+
 
 
 def cctv_info(number, a, b):
+    global base
     if number == 1:
-        cctv1(a, b)
+        for i in range(4):
+            bc = copy.deepcopy(base)
+            cctv1(a, b, i)
+            dream()
+            base = bc
     elif number == 2:
-        cctv2(a, b)
+        for i in range(2):
+            bc = copy.deepcopy(base)
+            cctv2(a, b, i)
+            dream()
+            base = bc
     elif number == 3:
-        cctv3(a, b)
+        for i in range(4):
+            bc = copy.deepcopy(base)
+            cctv3(a, b, i)
+            dream()
+            base = bc
     elif number == 4:
-        cctv4(a, b)
+        for i in range(4):
+            bc = copy.deepcopy(base)
+            cctv4(a, b, i)
+            dream()
+            base = bc
     elif number == 5:
         cctv5(a, b)
+        dream()
 
+def dream():
+    global cnt, leng, minnn, cctv
+    if cctv:
+        a, b = cctv.pop()
+        cctv_info(base[a][b], a, b)
+        cnt += 1
+    else:
+        num = 0
+        for iii in range(row):
+            for jjj in range(col):
+                if base[iii][jjj] == 0:
+                    num += 1
+        if num < minnn:
+            minnn = num
+            cctv = ct
+        return
 
 # 안에 함수 와일 팝 안에 함수와일 팝 안에 함수 와일
 row, col = map(int,input().split())
@@ -99,34 +269,10 @@ for ii in range(row):
     for jj in range(col):
         if base[ii][jj] != 0 and base[ii][jj] != 6:
             cctv.append((ii, jj))
-a, b = cctv.pop()
-cctv_info(base[a][b])
-
+ct = copy.deepcopy(cctv)
 leng = len(cctv)
-
-for one in range(4):
-    if leng == 0:
-        break
-    for two in range(4):
-        if leng == 1:
-            break
-        for three in range(4):
-            if leng == 2:
-                break
-            for four in range(4):
-                if leng == 3:
-                    break
-                for five in range(4):
-                    if leng == 4:
-                        break
-                    for six in range(4):
-                        if leng == 5:
-                            break
-                        for seven in range(4):
-                            if leng == 6:
-                                break
-                            for eight in range(4):
-                                if leng == 7:
-                                    break
-
+cnt = 0
+minnn = 999999
+dream()
+print(minnn)
 

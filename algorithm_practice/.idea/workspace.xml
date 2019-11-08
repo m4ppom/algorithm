@@ -4,6 +4,8 @@
     <list default="true" id="cb102be9-178d-455f-aa05-e4429b1e3ae2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/s2s3_ad_study/gichul4/15683_gamC.py" beforeDir="false" afterPath="$PROJECT_DIR$/s2s3_ad_study/gichul4/15683_gamC.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/s2s3_ad_study/gichul4/15685_drogo.py" beforeDir="false" afterPath="$PROJECT_DIR$/s2s3_ad_study/gichul4/15685_drogo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/s2s3_ad_study/gichul4/drogo.txt" beforeDir="false" afterPath="$PROJECT_DIR$/s2s3_ad_study/gichul4/drogo.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,6 +32,34 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="15683_gamC" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="20190812" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/s2s3_ad_study/gichul4" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/s2s3_ad_study/gichul4/15683_gamC.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.15683_gamC" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -53,5 +83,33 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/s2s3_ad_study/gichul4/15683_gamC.py</url>
+          <line>275</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/s2s3_ad_study/gichul4/15683_gamC.py</url>
+          <line>214</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/s2s3_ad_study/gichul4/15683_gamC.py</url>
+          <line>244</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="base" language="Python" />
+        <watch expression="cctv" language="Python" />
+        <watch expression="col" language="Python" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
