@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb102be9-178d-455f-aa05-e4429b1e3ae2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/s2s3_ad_study/gichul4/15683_gamC.py" beforeDir="false" afterPath="$PROJECT_DIR$/s2s3_ad_study/gichul4/15683_gamC.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/s2s3_ad_study/gichul4/15685_drogo.py" beforeDir="false" afterPath="$PROJECT_DIR$/s2s3_ad_study/gichul4/15685_drogo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/s2s3_ad_study/gichul4/drogo.txt" beforeDir="false" afterPath="$PROJECT_DIR$/s2s3_ad_study/gichul4/drogo.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -89,17 +86,17 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/s2s3_ad_study/gichul4/15683_gamC.py</url>
-          <line>275</line>
+          <line>276</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/s2s3_ad_study/gichul4/15683_gamC.py</url>
-          <line>214</line>
+          <line>215</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/s2s3_ad_study/gichul4/15683_gamC.py</url>
-          <line>244</line>
+          <line>245</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>

@@ -6,6 +6,7 @@ sys.stdin = open('gamC.txt', 'r')
 # 회전 항상 90도 6은 벽
 # 이전에 사냥꾼 느낌으로 하될듯. 사각지대 최소일 때
 # 1 버젼 4개 2 = 2개 3=4개 4  4개 5=1개
+# 팝말고 인덱스로 
 import collections, copy
 
 def cctv1(i, j, ggu):
