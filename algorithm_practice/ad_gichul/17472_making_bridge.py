@@ -60,9 +60,9 @@ for iiii in range(N):
             making_bridge(iiii, jjjj)
 # print(bridge_info)
 mmm = list(itertools.combinations(range(1,num), 2))
-print(mmm)
+# print(mmm)
 nnn = list(itertools.combinations(mmm, num-2))
-print(nnn)
+# print(nnn)
 ssss = 0
 mmmiiinniii = 9999
 info = []

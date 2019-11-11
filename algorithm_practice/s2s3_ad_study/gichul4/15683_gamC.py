@@ -1,4 +1,5 @@
 import sys
+sys.setrecursionlimit(100000)
 sys.stdin = open('gamC.txt', 'r')
 
 # 1번은 한쪽 2번 일자로 2방향 3번 직각2방향 4번 3방향 5번 4방향
@@ -6,7 +7,7 @@ sys.stdin = open('gamC.txt', 'r')
 # 회전 항상 90도 6은 벽
 # 이전에 사냥꾼 느낌으로 하될듯. 사각지대 최소일 때
 # 1 버젼 4개 2 = 2개 3=4개 4  4개 5=1개
-# 팝말고 인덱스로 
+# 팝말고 인덱스로
 import collections, copy
 
 def cctv1(i, j, ggu):
@@ -244,11 +245,14 @@ def cctv_info(number, a, b):
         dream()
 
 def dream():
-    global cnt, leng, minnn, cctv
-    if cctv:
-        a, b = cctv.pop()
-        cctv_info(base[a][b], a, b)
+    global cnt, leng, minnn, cctv, idx
+    if cnt < leng:
+        a, b = cctv[idx]
+        # print(idx)
+        idx += 1
         cnt += 1
+        cctv_info(base[a][b], a, b)
+
     else:
         num = 0
         for iii in range(row):
@@ -258,6 +262,8 @@ def dream():
         if num < minnn:
             minnn = num
             cctv = ct
+        cnt -= 1
+        idx -= 1
         return
 
 # 안에 함수 와일 팝 안에 함수와일 팝 안에 함수 와일
@@ -273,6 +279,7 @@ for ii in range(row):
 ct = copy.deepcopy(cctv)
 leng = len(cctv)
 cnt = 0
+idx = 0
 minnn = 999999
 dream()
 print(minnn)
