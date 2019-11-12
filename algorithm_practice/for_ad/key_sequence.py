@@ -3,30 +3,22 @@ sys.stdin = open('key.txt', 'r')
 
 
 def deeeeeep_up(idx):
-    # for i in range(M):
-    #     if base[i][1] == idx:
-    #         vztd[base[i][0]] = 1
-    #         deeeeeep_up(base[i][0])
     q = []
     q.append(idx)
     while q:
         a = q.pop()
         for i in range(M):
-            if base[i][1] == a:
+            if base[i][1] == a and vztd[base[i][0]] == 0:
                 vztd[base[i][0]] = 1
                 q.append(base[i][0])
 
 def deeeeeep_down(idx):
-    # for i in range(M):
-    #     if base[i][0] == idx:
-    #         vztd[base[i][1]] = 1
-    #         deeeeeep_down(base[i][1])
     q = []
     q.append(idx)
     while q:
         a = q.pop()
         for i in range(M):
-            if base[i][0] == a:
+            if base[i][0] == a and vztd[base[i][1]] == 0:
                 vztd[base[i][1]] = 1
                 q.append(base[i][1])
 
@@ -43,10 +35,10 @@ for testcase in range(1, testnum+1):
         vztd = [0]*(N+1)
         vztd[i] = 1
         for __ in range(M):
-            if base[__][0] == i:
+            if base[__][0] == i and vztd[base[__][1]] == 0:
                 vztd[base[__][1]] = 1
                 deeeeeep_up(base[__][1])
-            elif base[__][1] == i:
+            if base[__][1] == i and vztd[base[__][0]] == 0:
                 vztd[base[__][0]] = 1
                 deeeeeep_up(base[__][0])
             if sum(vztd) == N:
