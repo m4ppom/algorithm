@@ -33,8 +33,11 @@ leng[2] = len(case[2])
 leng[3] = len(case[3])
 leng[4] = len(case[4])
 
+
 def pathfinder():
-    global idx, maxx, lange, summation
+    global idx, maxx, lange, summation, i
+    print(maxx, '||||', idx)
+
     if idx >= lange:
         if maxx < summation:
             maxx = summation
@@ -58,20 +61,20 @@ def pathfinder():
 summ = sum(num_list)
 maxx = 0
 for i in range(1, 5):
-    if leng[i] > summ:
-        continue
-    else:
-        lange = leng[i]
-        idx = -1
-        summation = 0
-        visited = [0]* 10
-        for ii in range(10):
-            visited[ii] = 1
-            summation += case[i][num_list[ii]]
-            idx += num_list[ii]
-            pathfinder()
-            idx -= num_list[ii]
-            summation -= case[i][num_list[ii]]
-            visited[ii] = 0
+    # if leng[i] > summ:
+    #     continue
+    # else:
+    lange = leng[i]
+    idx = -1
+    summation = 0
+    visited = [0]* 10
+    for ii in range(10):
+        visited[ii] = 1
+        summation += case[i][num_list[ii]]
+        idx += num_list[ii]
+        pathfinder()
+        idx -= num_list[ii]
+        summation -= case[i][num_list[ii]]
+        visited[ii] = 0
 print(maxx)
 
