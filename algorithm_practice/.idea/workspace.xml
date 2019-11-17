@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bcacb7fd-a9a5-4419-a9e8-58dc4a60e75c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/for_ad/tree.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/20190812.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/20190812.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/for_ad/anti_mine.py" beforeDir="false" afterPath="$PROJECT_DIR$/for_ad/anti_mine.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/for_ad/mine.txt" beforeDir="false" afterPath="$PROJECT_DIR$/for_ad/mine.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/for_ad/sam.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -172,12 +168,12 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.anti_mine" />
-      <item itemvalue="Python.brick" />
-      <item itemvalue="Python.chef" />
-      <item itemvalue="Python.desert_cafe" />
       <item itemvalue="Python.key_sequence" />
+      <item itemvalue="Python.chef" />
+      <item itemvalue="Python.brick" />
+      <item itemvalue="Python.anti_mine" />
       <item itemvalue="Python.spreading_cell" />
+      <item itemvalue="Python.desert_cafe" />
     </list>
     <recent_temporary>
       <list>
