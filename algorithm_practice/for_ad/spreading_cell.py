@@ -2,30 +2,6 @@ import sys
 sys.stdin = open('cell.txt', 'r')
 
 
-
-
-
-
-# def spreading_bfs1(i, j, life):
-#     global flag_for_q
-#     q = collections.deque()
-#     q.append((i, j))
-#     vztd[i][j] = [life, 1]
-#     while q:
-#         y, x = q.popleft()
-#         for dir in range(4):
-#             yy = y + dy[dir]
-#             xx = x + dx[dir]
-#             if vztd[yy][xx][0] < vztd[y][x][0] and vztd[yy][xx][1] == 0:
-#                 vztd[yy][xx] = [vztd[y][x][0], 0]
-#                 if flag_for_q == 1:
-#                     cell_queue2.append([vztd[y][x][0], 0, yy, xx])
-#                 elif flag_for_q == 2:
-#                     cell_queue.append([vztd[y][x][0], 0, yy, xx])
-#             else:
-#                 pass
-
-
 def spreading_bfs2(i, j, life):
     for dir in range(4):
         ii = i + dy[dir]
@@ -36,7 +12,6 @@ def spreading_bfs2(i, j, life):
                 cell_queue2.append([life, 0, ii, jj])
             elif flag_for_q == 2:
                 cell_queue.append([life, 0, ii, jj])
-
 
 
 dy = [-1, 1, 0, 0]
